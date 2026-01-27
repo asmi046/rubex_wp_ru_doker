@@ -1,0 +1,2977 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RubEx English\n"
+"POT-Creation-Date: 2020-08-20 02:26+0300\n"
+"PO-Revision-Date: 2020-08-20 02:29+0300\n"
+"Last-Translator: \n"
+"Language-Team: Отдел ВЭД RubEx Group\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: template-parts\n"
+"X-Poedit-SearchPath-2: template-parts/productsitebar\n"
+
+#: 404.php:22
+msgid "К сожалению эта страница не найдена"
+msgstr ""
+
+#: category-117.php:50 page-zacupki.php:137
+msgid "Смотреть еще"
+msgstr "Zirim bolshe"
+
+#: category-16.php:19 template-parts/sidebar.php:67
+#, fuzzy
+#| msgid "Похожие продукты"
+msgid "Каталог продукции"
+msgstr "Pohozgie produkti"
+
+#: category-16.php:68 index.php:152 index.php:157 index.php:164 index.php:261
+#: index.php:273 index.php:282 template-parts/about-arcticles.php:6
+#: template-parts/about-arcticles.php:14 template-parts/about-arcticles.php:21
+#: template-parts/arcticles.php:6 template-parts/arcticles.php:14
+#: template-parts/arcticles.php:21 template-parts/articles.php:6
+#: template-parts/articles.php:14 template-parts/articles.php:21
+#: template-parts/articles.php:30 template-parts/articles.php:37
+msgid "Перейти в раздел"
+msgstr ""
+
+#: category-novosti-rg.php:44 category-novosti-rg.php:56
+#: category-osushhestvlennye-proekty.php:45
+#: category-osushhestvlennye-proekty.php:57 functions.php:465 functions.php:469
+#: template-parts/news-item.php:9
+msgid "Читать далее"
+msgstr ""
+
+#: category-novosti-rg.php:62 category-osushhestvlennye-proekty.php:63
+#: functions.php:476
+msgid "Показать еще"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:17
+msgid "Отраслевые решения для промышленности"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:18
+msgid ""
+"Комплексные решения для различных отраслей промышленности от RubEx Group"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:29
+#, php-format
+msgid "Металургическая %sпромышленность"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:47 category-otraslevye-resheniya.php:74
+#: category-otraslevye-resheniya.php:101 category-otraslevye-resheniya.php:128
+#: category-otraslevye-resheniya.php:155 category-otraslevye-resheniya.php:182
+msgid "Все переделы"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:54
+#, php-format
+msgid "Цементная %sпромышленность"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:83
+#, php-format
+msgid "Нефтяная %sпромышленность"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:108
+#, php-format
+msgid "Угольная %sпромышленность"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:137
+#, php-format
+msgid "Строительная %sпромышленность"
+msgstr ""
+
+#: category-otraslevye-resheniya.php:162
+#, php-format
+msgid "Сельское %sхозяйство"
+msgstr ""
+
+#: footer.php:37
+msgid "Назад"
+msgstr ""
+
+#: footer.php:41
+msgid "Наверх"
+msgstr ""
+
+#: footer.php:45
+msgid "Реквизиты"
+msgstr ""
+
+#: footer.php:49
+msgid "Звонок"
+msgstr ""
+
+#: footer.php:53
+msgid "Меню"
+msgstr ""
+
+#: functions.php:480
+msgid "Нет новостей за этот период"
+msgstr ""
+
+#: header.php:45
+msgid "Магазин РТИ"
+msgstr ""
+
+#: header.php:56
+msgid "Бесплатный звонок по России"
+msgstr ""
+
+#: index.php:84 index.php:114 index.php:138 template-parts/menu.php:344
+msgid "Еще"
+msgstr ""
+
+#: index.php:87 index.php:92 index.php:141
+#: template-parts/productsitebar/sidebar-blt.php:31
+#: template-parts/productsitebar/sidebar-prom.php:33
+#: template-parts/productsitebar/sidebar-rvd.php:32
+#: template-parts/sidebar-product-cat.php:50
+msgid "Скачать каталог"
+msgstr ""
+
+#: index.php:150 template-parts/about-arcticles.php:20
+#: template-parts/arcticles.php:20 template-parts/articles.php:20
+msgid "Отдел закупок"
+msgstr ""
+
+#: index.php:151
+msgid "Узнайте больше о закупках проводимых RubEx Group"
+msgstr ""
+
+#: index.php:155 page-contacts.php:223 page-contacts.php:231
+#: page-contacts.php:265 page-rekvisit.php:21
+#: template-parts/about-arcticles.php:13 template-parts/arcticles.php:13
+#: template-parts/articles.php:13
+msgid "Реквизиты и документы"
+msgstr ""
+
+#: index.php:156
+msgid "Все необходимые документы для оформления договоров"
+msgstr ""
+
+#: index.php:162
+msgid "Служба персонала"
+msgstr ""
+
+#: index.php:163
+msgid "Узнайте больше о практике и карьере в RubEx Group"
+msgstr ""
+
+#: index.php:170
+msgid "Контакт - центр"
+msgstr ""
+
+#: index.php:171 template-parts/sidebar-contacts.php:16
+#: template-parts/sidebar-rekvisit.php:18
+msgid ""
+"Позвоните нам на бесплатную горячую линию и мы оперативно ответим на все "
+"ваши вопросы"
+msgstr ""
+
+#: index.php:175 modal-win.php:84
+msgid "Заказать звонок"
+msgstr ""
+
+#: index.php:177 modal-win.php:39
+msgid "Прямое обращение"
+msgstr ""
+
+#: index.php:187
+#, php-format
+msgid "RubEx Group %sв цифрах и%s фактах"
+msgstr ""
+
+#: index.php:192
+msgid "Rubex – движущая сила Вашего бизнеса"
+msgstr ""
+
+#: index.php:193
+msgid ""
+"Мы способствуем развитию промышленности и сельского хозяйства, благодаря "
+"качеству и надежности резинотехнической продукции, работе "
+"высококвалифицированных специалистов и непрерывному внедрению новых "
+"технологий"
+msgstr ""
+
+#: index.php:194
+msgid "Наша миссия"
+msgstr ""
+
+#: index.php:195
+msgid ""
+"Делать бизнес наших клиентов эффективнее за счет предложения продуктов, "
+"обеспечивающих гарантированную транспортировку сред и пород, находясь в "
+"постоянном совершенствовании и развитии"
+msgstr ""
+
+#: index.php:203
+#, php-format
+msgid "1 %sместо%s"
+msgstr "1 %smesto%s"
+
+#: index.php:204
+msgid "среди производителей РТИ в России"
+msgstr ""
+
+#: index.php:205
+msgid ""
+"по итогам 2019 года среди производителей РТИ в России без учета "
+"производителей шин"
+msgstr ""
+
+#: index.php:210
+#, php-format
+msgid "3 000 %sчеловек%s"
+msgstr ""
+
+#: index.php:211
+msgid "штат квалифицированных специалистов"
+msgstr ""
+
+#: index.php:220
+#, php-format
+msgid "5 000 %sтонн%s"
+msgstr ""
+
+#: index.php:221
+msgid "производственные мощности в месяц"
+msgstr ""
+
+#: index.php:229
+#, php-format
+msgid "35 %sстран%s"
+msgstr ""
+
+#: index.php:230
+msgid "импортеров нашей продукции, доставка во все регионы РФ"
+msgstr ""
+
+#: index.php:235
+#, php-format
+msgid "20 000 %sединиц%s"
+msgstr ""
+
+#: index.php:236
+msgid "ассортимент выпускаемой продукции"
+msgstr ""
+
+#: index.php:272
+msgid "Медиа"
+msgstr ""
+
+#: index.php:281 template-parts/menu.php:350
+msgid "Осуществленные проекты"
+msgstr ""
+
+#: modal-win.php:3 modal-win.php:14 modal-win.php:37 modal-win.php:81
+msgid "закрыть"
+msgstr ""
+
+#: modal-win.php:17 page-work.php:24
+msgid "Отправить резюме"
+msgstr ""
+
+#: modal-win.php:18
+msgid "Вакансия"
+msgstr ""
+
+#: modal-win.php:19 page-contacts.php:43 page-contacts.php:53
+#: page-contacts.php:87 page-contacts.php:94 page-contacts.php:101
+#: page-contacts.php:108 page-contacts.php:115 page-contacts.php:122
+#: page-contacts.php:129 page-contacts.php:202 page-contacts.php:208
+#: page-contacts.php:247 page-contacts.php:248
+msgid "Телефон"
+msgstr ""
+
+#: modal-win.php:22
+msgid "Выбрать файл"
+msgstr ""
+
+#: modal-win.php:26 modal-win.php:69 modal-win.php:114
+#: page-service_center.php:92 template-parts/callback-form.php:25
+msgid "Отправить"
+msgstr ""
+
+#: modal-win.php:40
+msgid ""
+"Уважаемые клиенты, партнеры и коллеги! В данном разделе вы можете отправить "
+"свое сообщение лично Генеральному директору компании ООО «Рабэкс Групп». "
+"Ваше обращение будет рассмотрено в течение 2-х рабочих дней"
+msgstr ""
+
+#: modal-win.php:45 modal-win.php:88
+msgid "Ф.И.О."
+msgstr ""
+
+#: modal-win.php:50 modal-win.php:92 template-parts/callback-form.php:7
+msgid "Контактный телефон"
+msgstr ""
+
+#: modal-win.php:55 modal-win.php:96 page-service_center.php:90
+#: template-parts/callback-form.php:8
+msgid "e-mail"
+msgstr ""
+
+#: modal-win.php:60
+msgid "Тема сообщения"
+msgstr ""
+
+#: modal-win.php:65 page-service_center.php:91
+msgid "Сообщение"
+msgstr ""
+
+#: modal-win.php:100 template-parts/sidebar-news.php:4
+msgid "Направления"
+msgstr ""
+
+#: modal-win.php:103
+#, fuzzy
+#| msgid "Похожие продукты"
+msgid "Приобретение продукции Rubex"
+msgstr "Pohozgie produkti"
+
+#: modal-win.php:104
+msgid "Предложение сырья и материалов"
+msgstr ""
+
+#: modal-win.php:105 template-parts/callback-form.php:20
+msgid "Карьера"
+msgstr ""
+
+#: modal-win.php:106
+msgid "Другие вопросы"
+msgstr ""
+
+#: modal-win.php:111
+msgid "Нажимая на кнопку \"Отправить\", вы соглашаетесь с"
+msgstr ""
+
+#: modal-win.php:111 template-parts/callback-form.php:26
+msgid "условиями обработки персональных данных"
+msgstr ""
+
+#: page-about.php:14
+msgid "О нас"
+msgstr ""
+
+#: page-about.php:16
+msgid ""
+"В 2013 г. в России произошло образование крупнейшего резинотехнического "
+"холдинга Rubex Group. Управляющая компания Rubex Group – лидер в разработке, "
+"производстве и поставке узкоспециализированных резинотехнических изделий для "
+"промышленных секторов бизнеса в России. Группа включает в себя две "
+"производственные площадки – ОАО «Курскрезинотехника» и ОАО «Саранский завод "
+"«Резинотехника», а также многочисленные офисы продаж по всей России и штаб-"
+"квартиру в Москве. История наших предприятий – это более 60 лет работы, на "
+"протяжении которых была создана полная технологическая цепочка производства, "
+"начиная от изготовления резиновых смесей и заканчивая выпуском готовой "
+"продукции для всех отраслей промышленности и сельского хозяйства"
+msgstr ""
+
+#: page-about.php:19
+msgid "Наше производство"
+msgstr ""
+
+#: page-about.php:23
+msgid "История"
+msgstr ""
+
+#: page-about.php:27
+msgid "Курскрезинотехника"
+msgstr ""
+
+#: page-about.php:31
+msgid ""
+"В январе 1946 года началось строительство Курского завода резиновых "
+"технических изделий общей площадью 30 га. В сентябре 1948 года был выпущен "
+"первый клиновой ремень. В 1949 году завод начал выпускать маты, бытовые "
+"дорожки, автоковры"
+msgstr ""
+
+#: page-about.php:35
+msgid ""
+"В 1950 году завод стал важнейшей стройкой Главхимстроя. В 1951 году введен в "
+"эксплуатацию цех гуммирования валов и химаппаратуры. За период 1950 — 1955 "
+"годов завод увеличил объем производства в 3 раза, производительность труда "
+"повысилась более чем на 100%. Освоены совершено новые для резинотехнической "
+"отрасли технологии в производствах транспортной ленты и вентиляторных "
+"ремней. В этот период на предприятии открыто бюро рационализаторства и "
+"изобретательства"
+msgstr ""
+
+#: page-about.php:39
+msgid ""
+"В данный период интенсивно наращивались мощности производства конвейерных "
+"лент: модернизация и введение в эксплуатацию нового вулканизационного "
+"оборудования. В 1975 году государственная комиссия аттестовала качество "
+"резинотросовых конвейерных лент повышенной прочности и износостойкости по "
+"высшей категории. Открыт цех по пропитке синтетических тканей"
+msgstr ""
+
+#: page-about.php:43
+msgid ""
+"Численность работников завода превысила 10 000 человек. Ежегодный прирост "
+"производственных мощностей более 10%.  Площадь предприятия увеличилась до "
+"120 га. Пуск 2 — ой очереди комплекса по производству резинометаллических "
+"уплотнителей"
+msgstr ""
+
+#: page-about.php:47
+msgid ""
+"Модернизация линий плоскопараллельной сборки каркасов конвейерных лент.  "
+"Запущена в работу новая линия по производству рукавов высокого давления с  "
+"металлооплеткой"
+msgstr ""
+
+#: page-about.php:51
+msgid ""
+"Ввод в эксплуатацию линии по выпуску рукавов высокого давления с "
+"металлонавивками. Налажено производство рукавов высокого давления с концевой "
+"арматурой"
+msgstr ""
+
+#: page-about.php:57
+msgid "Саранский завод «Резинотехника»"
+msgstr ""
+
+#: page-about.php:61
+msgid ""
+"В 1960 году на части бывшей территории совхоза им.Куйбышева состоялся митинг "
+"по закладке первого камня комбината в ознаменование 30 летия Мордовской "
+"АССР. В 1965 году цеха выпустили первую продукцию"
+msgstr ""
+
+#: page-about.php:65
+msgid ""
+"В цехе №4 основана технология изготовления клиновых ремней в северном "
+"исполнении. В цехе №8 стали выпускать рукава с металлооплеткой. В цехе №3 "
+"были внедрены линии непрерывной вулканизации профильных изделий в расплавах "
+"солей, началось производство резиновых ковров для автобусов. В 1975 году в "
+"цехе №5 было осуществлено внедрение в формовом производстве кассетированных "
+"пресс-форм и перезарядчиков. В 1976 году Саранский резиновый комбинат был "
+"переименован в Саранский завод «Резинотехника»"
+msgstr ""
+
+#: page-about.php:69
+msgid ""
+"Завод постоянно обновляется, начинается выпуск новой продукции, внедряются "
+"передовые технологии, происходит замена оборудования на более современное, "
+"высокопроизводительное"
+msgstr ""
+
+#: page-about.php:73
+msgid ""
+"ОАО «Саранский завод «Резинотехника» стал одним из ведущих предприятий "
+"отрасли, комплектующий такие автогиганты как «ГАЗ», «ИжМаш», «УАЗ», «ПАЗ». "
+"На предприятии разрабатывается, и внедрятся целый комплекс новинок, которые "
+"позволили сделать большой шаг вперед. Например, безоблицовочное изготовление "
+"клиновых ремней не имело аналогов в мире"
+msgstr ""
+
+#: page-about.php:77
+msgid "Наращивание мощностей ключевого продукта — промышленных рукавов"
+msgstr ""
+
+#: page-about.php:87
+msgid ""
+"В 2013 году для управления двумя активами создана Управляющая Компания – ООО "
+"«Рабэкс Групп» (Rubex Group). Проводится интенсивная техническая "
+"модернизация активов: на ОАО «Саранский завод «Резинотехника» реализация "
+"крупнейшего в истории предприятия инвестиционного проекта «Техническое "
+"перевооружение производства напорных рукавов»; на ОАО «Курскрезинотехника» "
+"приобретена новая каландровая линия для производства высококачественных "
+"конвейерных лент (производства «Uth GmbH» (Германия) по специальному заказу "
+"ОАО «Курскрезинотехника»), внедрена новая линии по сборке каркасов "
+"высокопрочных конвейерных лент"
+msgstr ""
+
+#: page-about.php:91
+msgid ""
+"Осуществлена реализации инвестиционных программ в сфере повышения "
+"энергетической эффективности - строительство двух цехов парогенерации. На "
+"обоих активах запущены новые немецкие  линии для производства "
+"стрейнированной резины. Дооснощение испытательного центра стендами для "
+"проверки РВД на циклическую прочность. В 2016 г. на базе ОАО "
+"«Курскрезинотехника» состоялось открытие нового текстильного производства и "
+"создание участка пропитки и термообработки технических тканей. В 2018 г. "
+"запуск самого широкого в России пресса по вулканизации резинотканевых и "
+"резинотросовых конвейерных лент Saspol. В 2019 г. открытие участка по "
+"производству шламовых рукавов"
+msgstr ""
+
+#: page-about.php:96
+msgid ""
+"Разработаны «Долгосрочная Стратегия развития Холдинга» и «Инвестиционная "
+"программа», предусматривающие значительное увеличение мощностей по выпуску "
+"ключевых продуктов и становление Холдинга лидером резинотехнической "
+"промышленности ЕАЭС к 2030 году"
+msgstr ""
+
+#: page-about.php:111
+msgid "Команда Rubex Group"
+msgstr ""
+
+#: page-about.php:115
+msgid "Гордеев Владимир Николаевич"
+msgstr ""
+
+#: page-about.php:116 page-team.php:26
+msgid ""
+"Председатель совета директоров ОАО «Курскрезинотехника» и ОАО «Саранский "
+"завод «Резинотехника»"
+msgstr ""
+
+#: page-about.php:121
+msgid "Бормотов Сергей Николаевич"
+msgstr ""
+
+#: page-about.php:122 page-team.php:46
+msgid "Генеральный директор ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-about.php:127
+msgid "Ямникова Наталья Борисовна"
+msgstr ""
+
+#: page-about.php:128 page-team.php:66
+msgid "Финансовый директор ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-about.php:132
+msgid "В раздел команда"
+msgstr ""
+
+#: page-about.php:137
+msgid "Больше информации о нас"
+msgstr ""
+
+#: page-about.php:141
+#, php-format
+msgid "Корпоративная %s презентация"
+msgstr ""
+
+#: page-about.php:142
+msgid "Скачать (*.PDF)"
+msgstr ""
+
+#: page-about.php:145
+#, php-format
+msgid "Отчетность %s ОАО «Курскрезинотехника»"
+msgstr ""
+
+#: page-about.php:146 page-about.php:150 template-parts/menu.php:254
+#: template-parts/menu.php:263 template-parts/menu.php:272
+msgid "Перейти"
+msgstr ""
+
+#: page-about.php:149
+#, php-format
+msgid "Отчетность %s ОАО «Саранский завод «Резинотехника»"
+msgstr ""
+
+#: page-calc-hoses.php:21
+msgid "Расчет параметров промышленных рукавов"
+msgstr ""
+
+#: page-calc-hoses.php:25 page-calc-hoses.php:26 page-calc-hoses.php:49
+#: page-calc-hoses.php:75 page-calc-hoses.php:91
+msgid "Диаметр рукава (мм)"
+msgstr ""
+
+#: page-calc-hoses.php:28
+msgid "Давление (бар)"
+msgstr ""
+
+#: page-calc-hoses.php:29 page-calc-hoses.php:47 page-calc-hoses.php:50
+#: page-calc-hoses.php:70 page-calc-hoses.php:73 page-calc-hoses.php:92
+#: page-calc-hoses.php:95 page-calc-hoses.php:98
+msgid "Введите значение"
+msgstr ""
+
+#: page-calc-hoses.php:31 page-calc-hoses.php:46 page-calc-hoses.php:69
+msgid "Максимальный расход (литров/мин)"
+msgstr ""
+
+#: page-calc-hoses.php:34 page-calc-hoses.php:56 page-calc-hoses.php:79
+msgid "Расчет"
+msgstr ""
+
+#: page-calc-hoses.php:37 page-calc-hoses.php:59
+msgid ""
+"Примечание: расчетные значения – теоретические,  построены на основании "
+"закона Торричелли, шкалы Рейнольдса, формул Альтшуля. Расчет гидропотерь "
+"действителен для среды: вода с температурой + 20°C, либо иной жидкой среды с "
+"аналогичным коэффициентом вязкости. Значения действительны только для "
+"резиновых рукавов и могут отличаться от параметров, полученных "
+"экспериментальным путем."
+msgstr ""
+
+#: page-calc-hoses.php:52 page-calc-hoses.php:72 page-calc-hoses.php:94
+msgid "Давление на линии (бар)"
+msgstr ""
+
+#: page-calc-hoses.php:82 page-calc-hoses.php:111
+msgid ""
+"Примечание: расчетные значения – теоретические,  построены на основании "
+"закона Торричелли, шкалы Рейнольдса, формул Альтшуля. Расчет гидропотерь "
+"действителен для среды: вода с температурой + 20°C, либо иной жидкой среды с "
+"аналогичным коэффициентом вязкости. Значения действительны только для "
+"резиновых рукавов и могут отличаться от параметров, полученных "
+"экспериментальным путем"
+msgstr ""
+
+#: page-calc-hoses.php:97
+msgid "Длина (м)"
+msgstr ""
+
+#: page-calc-hoses.php:100
+msgid "Гидравлические потери  (%)"
+msgstr ""
+
+#: page-calc-hoses.php:103
+msgid "Давление на выходе (бар)"
+msgstr ""
+
+#: page-contacts.php:21
+msgid "Контакты"
+msgstr ""
+
+#: page-contacts.php:42 page-contacts.php:43 page-contacts.php:65
+msgid "Магазин ОАО «Курскрезинотехника»"
+msgstr ""
+
+#: page-contacts.php:43 page-contacts.php:53 page-contacts.php:87
+#: page-contacts.php:94 page-contacts.php:101 page-contacts.php:108
+#: page-contacts.php:115 page-contacts.php:122 page-contacts.php:129
+#: page-contacts.php:202 page-contacts.php:208 page-contacts.php:247
+#: page-contacts.php:248
+msgid "Адрес"
+msgstr ""
+
+#: page-contacts.php:43 page-contacts.php:66
+msgid "г.Курск, Проспект Ленинского комсомола, 2К2"
+msgstr ""
+
+#: page-contacts.php:52 page-contacts.php:53 page-contacts.php:70
+msgid "Магазин ОАО «Саранский завод «Резинотехника»"
+msgstr ""
+
+#: page-contacts.php:53 page-contacts.php:71
+msgid "г. Саранск, Северо-восточное шоссе, 15"
+msgstr ""
+
+#: page-contacts.php:87
+msgid "Филиал «Рабэкс Трэйд Северо-Запад»"
+msgstr ""
+
+#: page-contacts.php:87 page-contacts.php:161
+msgid "Россия, г.Санкт — Петербург, Полюстровский пр., д.87"
+msgstr ""
+
+#: page-contacts.php:94
+msgid "Филиал «Рабэкс Трэйд Урал»"
+msgstr ""
+
+#: page-contacts.php:94 page-contacts.php:154
+msgid "Россия, г.Екатеринбург, ул. Новинская, д.2, литер В1, оф. №202"
+msgstr ""
+
+#: page-contacts.php:101 page-contacts.php:181
+msgid "Региональный склад ООО «ГидроФлекс»"
+msgstr ""
+
+#: page-contacts.php:101 page-contacts.php:182
+msgid "344079 , г.Ростов-на-Дону, ул. Нансена, дом № 87"
+msgstr ""
+
+#: page-contacts.php:108
+msgid "Рабэкс Трейд-Казахстан"
+msgstr ""
+
+#: page-contacts.php:108 page-contacts.php:176
+msgid ""
+"Республика Казахстан, Карагандинская область, г.Караганда, район имени "
+"Казыбек Би, проспект БухарЖырауд.49"
+msgstr ""
+
+#: page-contacts.php:115
+msgid "ООО «Торговый дом «КРТ-Украина»"
+msgstr ""
+
+#: page-contacts.php:115 page-contacts.php:168
+msgid "Украина, г. Харьков, проспект Московский, 51"
+msgstr ""
+
+#: page-contacts.php:122
+msgid "ООО «ТД «КРТ-Сибирь»"
+msgstr ""
+
+#: page-contacts.php:122 page-contacts.php:147
+msgid "Россия, г.Кемерово, ул.Красноармейская, 50А, комната 11"
+msgstr ""
+
+#: page-contacts.php:129
+msgid "ООО «Рабэкс Трэйд»"
+msgstr ""
+
+#: page-contacts.php:129 page-contacts.php:140 page-contacts.php:247
+#: page-contacts.php:248 page-contacts.php:262
+msgid "Россия, г. Москва, Краснопресненская наб., д.12, подъезд 3, оф. №1002"
+msgstr ""
+
+#: page-contacts.php:139
+msgid "Территориальное подразделение ООО «Рабэкс Трэйд» по городу Москве"
+msgstr ""
+
+#: page-contacts.php:146
+msgid "Территориальное подразделение ООО «Рабэкс Трэйд» по городу Кемерово"
+msgstr ""
+
+#: page-contacts.php:153
+msgid ""
+"Территориальное подразделение ООО «Рабэкс Трэйд» по городу Екатеринбургу"
+msgstr ""
+
+#: page-contacts.php:160
+msgid ""
+"Территориальное подразделение ООО «Рабэкс Трэйд» по городу Санкт-Петербургу"
+msgstr ""
+
+#: page-contacts.php:167
+msgid "ООО «Торговый дом «Курскрезинотехника-Украина»"
+msgstr ""
+
+#: page-contacts.php:175
+msgid "Филиал ТОО «Рабэкс Трэйд — Казахстан»"
+msgstr ""
+
+#: page-contacts.php:202 page-contacts.php:226
+msgid "ОАО «Саранский завод «Резинотехника»"
+msgstr ""
+
+#: page-contacts.php:202 page-contacts.php:228
+msgid ""
+"Республика Мордовия, г.Саранск, Октябрьский район, Северо-восточное шоссе, 15"
+msgstr ""
+
+#: page-contacts.php:208 page-contacts.php:218
+msgid "ОАО «Курскрезинотехника»"
+msgstr ""
+
+#: page-contacts.php:208 page-contacts.php:220
+msgid "Россия, г.Курск, пр-т Ленинского комсомола, 2"
+msgstr ""
+
+#: page-contacts.php:247 page-contacts.php:248 page-contacts.php:260
+msgid "Управляющая компания RubEx Group"
+msgstr ""
+
+#: page-media.php:16
+msgid "Добро пожаловать в медиа-центр Rubex-Group"
+msgstr ""
+
+#: page-media.php:18
+msgid ""
+"В данном разделе Вы найдете все необходимые промо-материалы по продукции, "
+"выпускаемой нашим Холдингом."
+msgstr ""
+
+#: page-media.php:23
+msgid "Каталоги"
+msgstr ""
+
+#: page-media.php:41 page-media.php:68 page-media.php:95 page-media.php:123
+#: page-media.php:154 page-rekvisit.php:50 page-rekvisit.php:54
+#: page-rekvisit.php:58 page-rekvisit.php:80 page-rekvisit.php:85
+#: page-rekvisit.php:89 page-rekvisit.php:99 page-rekvisit.php:106
+#: page-rekvisit.php:113 page-rekvisit.php:120 page-rekvisit.php:141
+#: page-rekvisit.php:146 page-rekvisit.php:148 page-rekvisit.php:157
+#: page-rekvisit.php:164 page-zacupki.php:56 page-zacupki.php:60
+#: page-zacupki.php:64 page-zacupki.php:72 page-zacupki.php:76
+#: page-zacupki.php:80 page-zacupki.php:84 page-zacupki.php:88
+#: page-zacupki.php:92
+msgid "Скачать"
+msgstr ""
+
+#: page-media.php:52
+msgid "Брошюры"
+msgstr ""
+
+#: page-media.php:73 page-media.php:100 page-media.php:133
+msgid "Смотреть все"
+msgstr ""
+
+#: page-media.php:79 template-parts/menu.php:349
+msgid "Отраслевые решения"
+msgstr ""
+
+#: page-media.php:106
+msgid "Фотобанк"
+msgstr ""
+
+#: page-media.php:135
+msgid "Видео"
+msgstr ""
+
+#: page-media.php:140
+msgid "Бренд"
+msgstr ""
+
+#: page-media.php:142
+msgid ""
+"Название «Rubex Group» наиболее полно отражает функции Холдинга, как "
+"управляющей компании, отражает отраслевую принадлежность и выраженную миссию "
+"предприятия."
+msgstr ""
+
+#: page-media.php:143
+msgid ""
+"«Rubex» Group образовано от англ. rubber (резина) и excellent (совершенство, "
+"совершенная). Отдельно часть названия Холдинга означает «король» (от лат. "
+"bex), а приставка «ru» воспринимается как общепринятое сокращение – "
+"«Российская Федерация». Таким образом, бренд компании отражает наше "
+"стремление производить совершенный резинотехнический продукт для "
+"максимального удовлетворения требований наших клиентов."
+msgstr ""
+
+#: page-proizvodstvo.php:15
+msgid "Производство резинотехнических изделий RubEx Group"
+msgstr ""
+
+#: page-proizvodstvo.php:43 template-parts/menu.php:8
+#: template-parts/sidebar-news-cat.php:12 template-parts/sidebar-project.php:9
+msgid "Конвейерная лента"
+msgstr ""
+
+#: page-proizvodstvo.php:44
+msgid ""
+"70 лет опыта в производстве конвейерных лент. Единственный в ЕАЭС "
+"производитель резинотросовой ленты и лент шириной до 2400 мм"
+msgstr ""
+
+#: page-proizvodstvo.php:45
+msgid "Текущие мощности: 1,5 миллиона квадратных метров конвейерной ленты"
+msgstr ""
+
+#: page-proizvodstvo.php:46
+msgid ""
+"Выпуск конвейерной ленты шириной до 2400 мм, толщиной до 50 мм, длинной до "
+"500 погонных метров с характеристиками на уровне лучших мировых стандартов"
+msgstr ""
+
+#: page-proizvodstvo.php:47 page-proizvodstvo.php:60 page-proizvodstvo.php:69
+#: template-parts/menu.php:94 template-parts/menu.php:186
+#: template-parts/menu.php:239 template-parts/menu.php:279
+#: template-parts/menu.php:337
+msgid "Каталог"
+msgstr ""
+
+#: page-proizvodstvo.php:56 template-parts/menu.php:102
+#: template-parts/sidebar-news-cat.php:13 template-parts/sidebar-project.php:10
+msgid "Промышленные рукава"
+msgstr ""
+
+#: page-proizvodstvo.php:57
+msgid ""
+"60 лет опыта в производстве промышленных рукавов. Производство напорных и "
+"напорно-всасывающих рукавов"
+msgstr ""
+
+#: page-proizvodstvo.php:58
+msgid "Текущие мощности: 40 миллионов метров рукавов"
+msgstr ""
+
+#: page-proizvodstvo.php:59
+msgid ""
+"Производство резиновых рукавов от 4 до 325 мм, с рабочим давлением до 100 "
+"Бар, устойчивых к агрессивным средам, абразивному износу, экстремальным "
+"температурам для ключевых отраслей промышленности."
+msgstr ""
+
+#: page-proizvodstvo.php:65 template-parts/menu.php:193
+msgid "Рукава высокого давления"
+msgstr ""
+
+#: page-proizvodstvo.php:66
+msgid ""
+"20+ лет опыта в производстве РВД по международным стандартам. Собственные "
+"разработки и привлечение зарубежных специалистов для создания наиболее "
+"эффективных конструкций РВД"
+msgstr ""
+
+#: page-proizvodstvo.php:67
+msgid "Текущие мощности: 4 миллиона метров рукавов высокого давления (РВД)"
+msgstr ""
+
+#: page-proizvodstvo.php:68
+msgid ""
+"Производство рукавов высокого давления диаметром от 5 до 51 мм, с рабочим "
+"давлением до 445 Бар. 100% соответствие и превосходство стандартов EN и SAE "
+"Тестирование на циклическую прочность всех производимых партий рукавов"
+msgstr ""
+
+#: page-proizvodstvo.php:78
+msgid "Наши преимущества"
+msgstr ""
+
+#: page-proizvodstvo.php:83
+msgid "Ведущий производитель конвейерной ленты и промышленных рукавов в России"
+msgstr ""
+
+#: page-proizvodstvo.php:87
+msgid ""
+"Наши потребители крупнейшие металлургические и энергетические компании "
+"России и зарубежных стран, агропромышленные холдинги, производители "
+"автомобилей и инженерных систем."
+msgstr ""
+
+#: page-proizvodstvo.php:94
+msgid ""
+"Полная технологическая цепочка производства, начиная от изготовления "
+"резиновых смесей и заканчивая выпуском готовой продукции для всех отраслей "
+"промышленности и сельского хозяйства."
+msgstr ""
+
+#: page-proizvodstvo.php:101
+msgid ""
+"Производство продукции в соответствии с ГОСТ, а также по международным "
+"стандартам (DIN, SAE)"
+msgstr ""
+
+#: page-proizvodstvo.php:104
+msgid ""
+"Контроль входного сырья и готовой продукции в аккредитированном "
+"испытательном центре."
+msgstr ""
+
+#: page-proizvodstvo.php:107
+msgid "Наличие торговых представительств в промышленных центрах"
+msgstr ""
+
+#: page-rekvisit.php:34
+msgid "Генеральный директор"
+msgstr ""
+
+#: page-rekvisit.php:34
+msgid "Бормотов Сергей Николаевич, действующий на основании Устава"
+msgstr ""
+
+#: page-rekvisit.php:35 page-rekvisit.php:65 page-rekvisit.php:128
+msgid "Юридический и фактический адрес"
+msgstr ""
+
+#: page-rekvisit.php:36 page-rekvisit.php:66 page-rekvisit.php:129
+msgid "ИНН"
+msgstr ""
+
+#: page-rekvisit.php:36 page-rekvisit.php:66 page-rekvisit.php:129
+msgid "КПП"
+msgstr ""
+
+#: page-rekvisit.php:36 page-rekvisit.php:67 page-rekvisit.php:129
+msgid "р/с в рублях"
+msgstr ""
+
+#: page-rekvisit.php:36
+msgid "№40702810200001452663 в ЗАО «Райффайзенбанк» г.Москва"
+msgstr ""
+
+#: page-rekvisit.php:37 page-rekvisit.php:68 page-rekvisit.php:130
+msgid "БИК"
+msgstr ""
+
+#: page-rekvisit.php:38 page-rekvisit.php:68 page-rekvisit.php:130
+msgid "к/с"
+msgstr ""
+
+#: page-rekvisit.php:39 page-rekvisit.php:69 page-rekvisit.php:130
+msgid "ОКПО"
+msgstr ""
+
+#: page-rekvisit.php:43 page-rekvisit.php:73 page-rekvisit.php:134
+msgid "Поделиться реквизитами"
+msgstr ""
+
+#: page-rekvisit.php:46
+msgid "Учредительные документы RubEx Group"
+msgstr ""
+
+#: page-rekvisit.php:49
+msgid "Cвидетельство ИНН ООО Рабэкс Групп"
+msgstr ""
+
+#: page-rekvisit.php:53
+msgid "Cвидетельство ОГРН ООО Рабэкс Групп"
+msgstr ""
+
+#: page-rekvisit.php:57
+msgid "Устав Рабэкс Групп 10 09 2013"
+msgstr ""
+
+#: page-rekvisit.php:64
+msgid ""
+"Заместитель генерального директора-управляющий директор ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-rekvisit.php:64
+msgid ""
+"Маркелов Сергей Владимирович, действующий на основании доверенности  №30юр "
+"от 01.01.2020г."
+msgstr ""
+
+#: page-rekvisit.php:65
+msgid "305018, РФ, город Курск, проспект Ленинского комсомола, 2"
+msgstr ""
+
+#: page-rekvisit.php:67
+msgid "Курское отделение №8596 ПАО «Сбербанк России» г.Курск"
+msgstr ""
+
+#: page-rekvisit.php:76
+msgid "Учредительные документы ОАО \"Курскрезинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:79
+msgid "Cвидетельство ИНН ОАО \"Курскрезинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:84
+msgid "Cвидетельство ОГРН ОАО \"Курскрезинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:88
+msgid "Устав ОАО \"Курскрезинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:93
+msgid ""
+"Политика в области качества и сертификаты соответствия ОАО "
+"\"Курскрезинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:98
+msgid "Политика в области качества 2020г. ОАО \"Курскрезинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:105
+msgid "Сертификат ISO 14001 IQNet (ENG)"
+msgstr ""
+
+#: page-rekvisit.php:112
+msgid "Сертификат ISO 14001 IQNet (RUS)"
+msgstr ""
+
+#: page-rekvisit.php:119
+msgid "Сертификат по ГОСТ РВ 0015-002-2012"
+msgstr ""
+
+#: page-rekvisit.php:127 page-team.php:197
+msgid "Управляющий директор ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-rekvisit.php:127
+msgid ""
+"Калинин Михаил Сергеевич, действующий на основании доверенности №111 от "
+"23.10.2019г."
+msgstr ""
+
+#: page-rekvisit.php:128
+msgid ""
+"430031,РФ, Республика Мордовия, город Саранск, Октябрьский район, северо-"
+"восточное шоссе, дом 15"
+msgstr ""
+
+#: page-rekvisit.php:137
+msgid "Учредительные документы ОАО \"Cаранский завод \"Резинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:140
+msgid "Cвидетельство ИНН ОАО \"Cаранский завод \"Резинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:145
+msgid "Cвидетельство ОГРН ОАО \"Cаранский завод \"Резинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:147
+msgid "Устав ОАО \"Cаранский завод \"Резинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:151
+msgid ""
+"Политика в области качества и сертификаты соответствия ОАО \"Cаранский завод "
+"\"Резинотехника\""
+msgstr ""
+
+#: page-rekvisit.php:163
+msgid "Политика в области качества ОАО \"Cаранский завод \"Резинотехника\""
+msgstr ""
+
+#: page-service_center.php:21
+msgid ""
+"Для своих клиентов сервисный центр RubEx Group предлагает комплексное "
+"обслуживание конвейерных лент."
+msgstr ""
+
+#: page-service_center.php:25
+msgid "Дистанционная оценка ситуации"
+msgstr ""
+
+#: page-service_center.php:27
+msgid "Оценка текущей ситуации - «Слушаем заказчика – выявляем проблему»"
+msgstr ""
+
+#: page-service_center.php:28
+msgid "Обзор условий эксплуатации конвейерных лент посредством анкетирования"
+msgstr ""
+
+#: page-service_center.php:33
+msgid "Аудит конвейерного транспорта"
+msgstr ""
+
+#: page-service_center.php:35
+msgid ""
+"Проведение полного аудита конвейерного транспорта (конвейерных лент, "
+"конвейерного оборудования, условий эксплуатации и пр.)"
+msgstr ""
+
+#: page-service_center.php:40
+msgid "Предложения и рекомендации Rubex"
+msgstr ""
+
+#: page-service_center.php:42
+msgid "Итоговые рекомендации по пакету «лента +транспортировка+стыковка»"
+msgstr ""
+
+#: page-service_center.php:43
+msgid "Расчет показателей финансового эффекта от внедрения"
+msgstr ""
+
+#: page-service_center.php:48
+msgid "Обучение"
+msgstr ""
+
+#: page-service_center.php:50
+msgid ""
+"Проведение обучающих семинаров для техн.специалистов потребляющих предприятий"
+msgstr ""
+
+#: page-service_center.php:51
+msgid ""
+"Дистанционное консультирование и обучение по установке КЛ (обучающие "
+"материалы, руководство по эксплуатации)"
+msgstr ""
+
+#: page-service_center.php:56
+msgid "Мониторинг эксплуатации"
+msgstr ""
+
+#: page-service_center.php:58
+msgid ""
+"Постоянный мониторинг жизненного цикла ленты (осмотр, системы обнаружения "
+"порывов, измерение удлинения, толщины)"
+msgstr ""
+
+#: page-service_center.php:59
+msgid "Оповещение и предупреждение"
+msgstr ""
+
+#: page-service_center.php:64
+msgid "Поставка эффективных решений"
+msgstr ""
+
+#: page-service_center.php:66
+msgid "Конвейерная лента под индивидуальные условия работы Заказчика"
+msgstr ""
+
+#: page-service_center.php:67
+msgid "Стыковка (материалы / работа)"
+msgstr ""
+
+#: page-service_center.php:68
+msgid ""
+"Поставка и установка дополнительного оборудования (скребки, балки, "
+"уплотнители, датчики и пр.)"
+msgstr ""
+
+#: page-service_center.php:73
+#, php-format
+msgid "В результате %sВы получаете:"
+msgstr ""
+
+#: page-service_center.php:75
+msgid ""
+"Обеспечение бесперебойного, экономически эффективного производственного "
+"процесса"
+msgstr ""
+
+#: page-service_center.php:76
+msgid "Повышение эксплуатационного ресурса конвейерных лент от 30 до 50 %"
+msgstr ""
+
+#: page-service_center.php:77
+msgid "Снижение стоимости владения конвейерной ленты"
+msgstr ""
+
+#: page-service_center.php:80
+msgid ""
+"Мы предлагаем воспользоваться как полным пакетом сервисных услуг так и "
+"выбрать отдельное предложение под Ваши потребности"
+msgstr ""
+
+#: page-service_center.php:85
+msgid "Задать вопрос специалистам cервисного центра"
+msgstr ""
+
+#: page-service_center.php:86
+msgid ""
+"Нажимая на кнопку \"Отправить\", вы соглашаетесь с условиями обработки "
+"персональных данных."
+msgstr ""
+
+#: page-service_center.php:89 template-parts/callback-form.php:6
+msgid "Имя"
+msgstr ""
+
+#: page-service_center.php:98
+msgid ""
+"Повышение квалификации в области техники вулканизации и технического "
+"обслуживания лент"
+msgstr ""
+
+#: page-service_center.php:99
+msgid ""
+"Система обучения от Rubex предлагает Вам и Вашим сотрудникам пошагово "
+"получить оптимально подобранный пакет знаний. Целью программы является "
+"предоставление знаний и умений необходимых для практического увеличения "
+"эксплуатационного состояния конвейерных лент."
+msgstr ""
+
+#: page-service_center.php:104
+msgid "Программы повышения квалификации"
+msgstr ""
+
+#: page-service_center.php:110
+msgid "Вулканизация"
+msgstr ""
+
+#: page-service_center.php:111
+msgid "Техника вулканизации"
+msgstr ""
+
+#: page-service_center.php:113
+msgid ""
+"Базовые знания о технике вулканизации резинотканевых и резинотросовых "
+"конвейерных лентах"
+msgstr ""
+
+#: page-service_center.php:114 page-service_center.php:129
+#: page-service_center.php:144
+msgid "Основные технические понятия"
+msgstr ""
+
+#: page-service_center.php:120
+msgid "Тканевая лента"
+msgstr ""
+
+#: page-service_center.php:121 page-service_center.php:136
+msgid "Программа «Резинотканевая конвейерная лента»"
+msgstr ""
+
+#: page-service_center.php:123 page-service_center.php:138
+msgid ""
+"Материаловедение ,предупреждение аварий уход, определение и решение проблем "
+"Техническое обслуживание, машиноведение"
+msgstr ""
+
+#: page-service_center.php:124
+msgid "Ремонт: «холодный», «горячий»"
+msgstr ""
+
+#: page-service_center.php:125 page-service_center.php:140
+msgid "Монтаж / демонтаж"
+msgstr ""
+
+#: page-service_center.php:126 page-service_center.php:141
+msgid "Стыковка методом «холодной» вулканизации"
+msgstr ""
+
+#: page-service_center.php:127 page-service_center.php:142
+msgid ""
+"Стыковка методом «горячей» вулканизации Применение вулканизационного пресса"
+msgstr ""
+
+#: page-service_center.php:128 page-service_center.php:143
+msgid "Расчеты, согласно норм ДИН"
+msgstr ""
+
+#: page-service_center.php:135
+msgid "Тросовая лента"
+msgstr ""
+
+#: page-service_center.php:139
+msgid "Ремонт: «холодный», «горячий» "
+msgstr ""
+
+#: page-team.php:23
+#, php-format
+msgid "Гордеев%s Владимир Николаевич"
+msgstr ""
+
+#: page-team.php:24
+msgid "1964 года рождения"
+msgstr ""
+
+#: page-team.php:28 page-team.php:48 page-team.php:109 page-team.php:129
+#: page-team.php:165 page-team.php:191
+msgid "Закончил:"
+msgstr ""
+
+#: page-team.php:29
+msgid ""
+"Кемеровский технологический институт пищевой промышленности, Экономика и "
+"управление на предприятии, 2003 г."
+msgstr ""
+
+#: page-team.php:30 page-team.php:51 page-team.php:71 page-team.php:92
+#: page-team.php:111 page-team.php:131 page-team.php:149 page-team.php:169
+#: page-team.php:196
+msgid "Опыт работы:"
+msgstr ""
+
+#: page-team.php:31
+msgid "ООО «Росконтракт», Генеральный директор"
+msgstr ""
+
+#: page-team.php:32
+msgid "ОАО «Курскрезинотехника», Генеральный директор"
+msgstr ""
+
+#: page-team.php:33
+msgid "ОАО «Курскрезинотехника», Управляющий директор"
+msgstr ""
+
+#: page-team.php:34
+msgid "Председатель совета директоров"
+msgstr ""
+
+#: page-team.php:37 page-team.php:57 page-team.php:78 page-team.php:98
+#: page-team.php:118 page-team.php:136 page-team.php:155 page-team.php:180
+#: page-team.php:204 template-parts/products-loop.php:7
+msgid "Подробнее"
+msgstr ""
+
+#: page-team.php:43
+#, php-format
+msgid "Бормотов%s Сергей Николаевич"
+msgstr ""
+
+#: page-team.php:44
+msgid "1974 года рождения"
+msgstr ""
+
+#: page-team.php:49
+msgid ""
+"Институт Менеджмента, Маркетинга и Финансов, г. Воронеж, специальность "
+"«Менеджмент организации», диплом с отличием."
+msgstr ""
+
+#: page-team.php:50
+msgid ""
+"Воронежская Высшая Школа предпринимателей, г. Воронеж, квалификация "
+"«Бакалавр менеджмента», диплом с отличием."
+msgstr ""
+
+#: page-team.php:52
+msgid "Директор по экономике и финансам, АООТ «Уваровский  химический завод»;"
+msgstr ""
+
+#: page-team.php:53
+msgid ""
+"Исполнительный директор Группы компаний ЗАО «ФосАгро АГ» / Директор по "
+"экономике и финансам ЗАО «ФосАгро АГ», г. Москва, а также всех предприятий "
+"группы в течение деятельности (Череповецкий филиал ЗАО «ФосАгро АГ», "
+"Кировский филиал ЗАО «ФосАгро АГ» АО «Апатит», ЗАО «Метахим», ОАО "
+"«Воскресенские минеральные удобрения»);"
+msgstr ""
+
+#: page-team.php:54
+msgid ""
+"Заместитель Генерального директора по экономике и финансам ЗАО «Пикалевская "
+"Сода»."
+msgstr ""
+
+#: page-team.php:63
+#, php-format
+msgid "Ямникова%s Наталья Борисовна"
+msgstr ""
+
+#: page-team.php:64
+msgid "1980 года рождения"
+msgstr ""
+
+#: page-team.php:68 page-team.php:89 page-team.php:147
+msgid "Закончилa:"
+msgstr ""
+
+#: page-team.php:69
+msgid "Всероссийский финансово-экономический институт, 2002"
+msgstr ""
+
+#: page-team.php:70
+msgid "Международный институт менеджмента ЛИНК, курс «Стратегия»."
+msgstr ""
+
+#: page-team.php:72
+msgid "генеральный директор, финансовый директор ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-team.php:73
+msgid "финансовый директор ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-team.php:74
+msgid "Финансовый директор,  ОАО «СЗРТ»"
+msgstr ""
+
+#: page-team.php:75
+msgid "Заместитель финансового директора, ОАО «КРТ»"
+msgstr ""
+
+#: page-team.php:84
+#, php-format
+msgid "Кричигина%s Татьяна Владимировна"
+msgstr ""
+
+#: page-team.php:85 page-team.php:143 page-team.php:187
+msgid "1979 года рождения"
+msgstr ""
+
+#: page-team.php:87
+msgid ""
+"Заместитель генерального директора по организационному развитию и персоналу "
+"ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-team.php:90
+msgid ""
+"Санкт-Петербургский государственный горный институт имени Г. В. Плеханова "
+"(Технический университет), обогащение полезных ископаемых, горный инженер, "
+"2004 г."
+msgstr ""
+
+#: page-team.php:91
+msgid ""
+"Российская академия народного хозяйства и государственной службы при "
+"президенте Российской Федерации РАНХиГС,  программа подготовки "
+"управленческих кадров, экономика и управление на предприятии, 2015 г."
+msgstr ""
+
+#: page-team.php:93
+msgid "Заместитель директора по персоналу и социальной политике АО «ФосАгро»"
+msgstr ""
+
+#: page-team.php:94
+msgid "Директор по развитию ООО «RussianDeal»"
+msgstr ""
+
+#: page-team.php:95
+msgid ""
+"Заместитель генерального директора по организационному развитию и персоналу "
+"ООО «RubEx Group»"
+msgstr ""
+
+#: page-team.php:104
+#, php-format
+msgid "Торшенко%s Дмитрий Сергеевич"
+msgstr ""
+
+#: page-team.php:105
+msgid "1981 года рождения"
+msgstr ""
+
+#: page-team.php:107
+msgid "Директор по информационным технологиям  ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-team.php:110
+msgid ""
+"Курский Государственный Университет, Информатика и Вычислительная техника, "
+"2004г."
+msgstr ""
+
+#: page-team.php:112
+msgid ""
+"Управляющая компания «Электроаппарат», Начальник отдела внедрения "
+"информационных систем;"
+msgstr ""
+
+#: page-team.php:113
+msgid ""
+"ООО «Информационные технологии бизнеса» (1С франчайзи), Генеральный директор"
+msgstr ""
+
+#: page-team.php:114
+msgid ""
+"ОАО «Курскрезинотехника», Начальник Управления Информационных Технологий"
+msgstr ""
+
+#: page-team.php:115
+msgid "Директор по информационным технологиям ООО «RubEx Group»"
+msgstr ""
+
+#: page-team.php:124
+#, php-format
+msgid "Штанг%s Олег Макарович"
+msgstr ""
+
+#: page-team.php:125
+msgid "1968 года рождения"
+msgstr ""
+
+#: page-team.php:127
+msgid "Директор по правовым вопросам ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-team.php:130
+msgid "Саратовская Государственная Академия права, юриспруденция, 1997 г."
+msgstr ""
+
+#: page-team.php:132
+msgid "Директор по юридическим вопросам ООО «ЭХК»"
+msgstr ""
+
+#: page-team.php:133
+msgid "Директор по юридическим вопросам ООО «RubEx Group»"
+msgstr ""
+
+#: page-team.php:142
+#, php-format
+msgid "Жарова%s Ксения Сергеевна"
+msgstr ""
+
+#: page-team.php:145
+msgid ""
+"Директор по закупкам и внешнеэкономической деятельности ООО «Рабэкс Групп»"
+msgstr ""
+
+#: page-team.php:148
+msgid "ВолГУ, Мировая экономика, 2002 г."
+msgstr ""
+
+#: page-team.php:150
+msgid ""
+"Ведущий специалист по ВЭД, ВОАО «Химпром» (одно из крупнейших предприятий "
+"отечественного химического комплекса)."
+msgstr ""
+
+#: page-team.php:151
+msgid ""
+"Руководитель отдела ВЭД УК ЗАО «Ренова Оргсинтез» (ГК «Ренова»). В "
+"управлении ЗАО «Ренова Оргсинтез» —  ОАО «Химпром», Новочебоксарск; ОАО "
+"«Перкарбонат», Новочебоксарск; ОАО «Нефтехимия», Новокуйбышевск."
+msgstr ""
+
+#: page-team.php:152
+msgid "Директор по закупкам ООО «RubEx Group»"
+msgstr ""
+
+#: page-team.php:161
+#, php-format
+msgid "Маркелов%s Сергей Владимирович"
+msgstr ""
+
+#: page-team.php:163
+msgid "Управляющий директор ООО «Рабэкс Групп» (ОАО «КРТ»)"
+msgstr ""
+
+#: page-team.php:166
+msgid ""
+"Институт Бизнеса и Делового Администрирования «Академия Народного Хозяйства "
+"при Правительстве РФ» г. Москва, программа «Executive MBA Стратегическое "
+"управление»;"
+msgstr ""
+
+#: page-team.php:167
+msgid ""
+"Академия народного хозяйства при Правительстве РФ г. Москва, программа "
+"«Школа кадрового менеджмента» квалификация «Управление персоналом»;"
+msgstr ""
+
+#: page-team.php:168
+msgid ""
+"Самарская Государственная Экономическая Академия, специальность «Экономика и "
+"управление на предприятии» квалификация «Экономист»."
+msgstr ""
+
+#: page-team.php:171
+msgid "ОАО «АВТОВАЗ» г. Тольятти"
+msgstr ""
+
+#: page-team.php:172
+msgid "коммерческий директор ОАО «Металлургический завод «Ижмаш»» г. Ижевск"
+msgstr ""
+
+#: page-team.php:173
+msgid ""
+"исполнительный директор Металлургический завод ОАО «Нытва» г. Нытва Пермская "
+"обл."
+msgstr ""
+
+#: page-team.php:174
+msgid "заместитель генерального директора ОАО «Завод Автосвет» г. Киржач"
+msgstr ""
+
+#: page-team.php:175
+msgid "генеральный директор ОАО «Завод Автосвет» г. Киржач"
+msgstr ""
+
+#: page-team.php:176
+msgid ""
+"директор проекта по взаимодействию с иностранными партнерами ОАО "
+"«Объединенные автомобильные технологии»"
+msgstr ""
+
+#: page-team.php:177
+msgid "генеральный директор АО «Мотор-Супер» г.Тольятти"
+msgstr ""
+
+#: page-team.php:186
+#, php-format
+msgid "Калинин%s Михаил Сергеевич"
+msgstr ""
+
+#: page-team.php:189
+msgid "Управляющий директор ООО «Рабэкс Групп» (ОАО «СЗРТ»)"
+msgstr ""
+
+#: page-team.php:192
+msgid ""
+"Moscow City Business School, MBA с дипломом Европейской ассоциации "
+"дистанционного обучения и образования EDLEA"
+msgstr ""
+
+#: page-team.php:193
+msgid ""
+"Воронежский государственный технический университет, г. Воронеж, "
+"специальность «Электромеханика и электрические аппараты», квалификация "
+"«Кандидат технических наук»"
+msgstr ""
+
+#: page-team.php:194
+msgid ""
+"Липецкий государственный технический университет, г. Липецк, специальность "
+"«Электропривод и автоматика промышленных установок и технологических "
+"комплексов», квалификация «Инженер»."
+msgstr ""
+
+#: page-team.php:198
+msgid ""
+"Директор по развитию технической политики и экспертизы ТОиР, Аппарат вице-"
+"президента по развитию системы управления состоянием основных фондов "
+"предприятий Группы Новолипецкий металлургический комбинат (НЛМК)"
+msgstr ""
+
+#: page-team.php:199
+msgid ""
+"Руководитель планово-аналитического управления, Липецкая площадка Группы НЛМК"
+msgstr ""
+
+#: page-team.php:200
+msgid ""
+"Руководитель направления «Техническая политика», Дирекция по управлению "
+"энергетическим комплексом Группы НЛМК"
+msgstr ""
+
+#: page-team.php:201
+msgid ""
+"Главный специалист по электроснабжению, Дирекция по энергетике Группы НЛМК"
+msgstr ""
+
+#: page-team.php:211
+#, php-format
+msgid "Силин%s Алексей Альбертович"
+msgstr ""
+
+#: page-test.php:21
+msgid ""
+"Центральная лаборатория ОАО «Курскрезинотехника» функционирует со времени "
+"основания самого завода. И в настоящее время является многофункциональным, "
+"технически оснащенным подразделением холдинга RubEx Group."
+msgstr ""
+
+#: page-test.php:22
+msgid ""
+"В состав лаборатории входит испытательный центр, который аккредитован "
+"Федеральной службой по аккредитации (аттестат аккредитации №RA.RU.21АБ16, "
+"выдан 07 апреля 2015г.), как соответствующий ГОСТ ИСО/МЭК 17025-2009 по "
+"утвержденной области испытаний широкого спектра резиновых технических "
+"изделий. Мы проводим испытания широкого ассортимента РТИ на соответствие "
+"физико-механических, химических, антистатических показателей, термического "
+"старения, пожаробезопасности и других видов испытаний, применительно к "
+"соответствующим группам изделий."
+msgstr ""
+
+#: page-test.php:28
+msgid "Кратко об испытательном центре"
+msgstr ""
+
+#: page-test.php:29
+msgid "Узнайте больше о нашем опыте испытаний резинотехнических изделий"
+msgstr ""
+
+#: page-test.php:33
+msgid "Более 150 различных видов испытательного и измерительного оборудования"
+msgstr ""
+
+#: page-test.php:40
+msgid "Центр аттестован Федеральной службой по аккредитации"
+msgstr ""
+
+#: page-test.php:43
+msgid "Опробовано более 1 000 видов ингредиентов"
+msgstr ""
+
+#: page-test.php:51
+#, php-format
+msgid "Создано более %s1 500 видов резиновых смесей"
+msgstr ""
+
+#: page-test.php:54
+msgid "Отработаны параметры изготовления более 22 000 изделий"
+msgstr ""
+
+#: page-test.php:57
+msgid "Проведено более 7 миллионов различных испытаний"
+msgstr ""
+
+#: page-test.php:64
+msgid "Проводимые исследования"
+msgstr ""
+
+#: page-test.php:69
+msgid "Испытания конвейерной ленты"
+msgstr ""
+
+#: page-test.php:71
+msgid "Прочность связи при расслоении"
+msgstr ""
+
+#: page-test.php:72
+msgid "Поверхностное электрическое сопротивление"
+msgstr ""
+
+#: page-test.php:73
+msgid "Время горения"
+msgstr ""
+
+#: page-test.php:74
+msgid "Кислородный индекс"
+msgstr ""
+
+#: page-test.php:75
+msgid ""
+"Длина неповреждённого участка ленты, при проведении испытаний в лабораторной "
+"пожарной штольне"
+msgstr ""
+
+#: page-test.php:76
+msgid ""
+"Температура самовоспламенения Маслостойкость Истираемость Термо- и "
+"морозостойкость (от -60°С до +200°С)"
+msgstr ""
+
+#: page-test.php:81
+#, php-format
+msgid "Испытания %sрукавов"
+msgstr ""
+
+#: page-test.php:83
+msgid "Герметичность"
+msgstr ""
+
+#: page-test.php:84
+msgid "Запас прочности"
+msgstr ""
+
+#: page-test.php:85
+msgid "Морозостойкость"
+msgstr ""
+
+#: page-test.php:86
+msgid "Озоностойкость"
+msgstr ""
+
+#: page-test.php:87
+msgid "Огнестойкость"
+msgstr ""
+
+#: page-test.php:88
+msgid "Стойкость к агрессивным средам"
+msgstr ""
+
+#: page-test.php:89
+msgid "Изменение диаметра"
+msgstr ""
+
+#: page-test.php:90 single-pvh.php:71 single-pvh.php:99
+msgid "Радиус изгиба"
+msgstr ""
+
+#: page-test.php:95
+msgid "Испытания формовых и не формовых"
+msgstr ""
+
+#: page-test.php:97
+msgid "Прочностные характеристики (до 30-ти МПА)"
+msgstr ""
+
+#: page-test.php:98
+msgid "Остаточную деформацию сжатия"
+msgstr ""
+
+#: page-test.php:99
+msgid "Термо и морозостойкость (от -60°С до +200°С)"
+msgstr ""
+
+#: page-test.php:100
+msgid ""
+"Изменение показателей после искусственного старения в воздухе и в "
+"агрессивных средах"
+msgstr ""
+
+#: page-test.php:101
+msgid "Масло-, бензо-, агрессивостойкость"
+msgstr ""
+
+#: page-test.php:102
+msgid "Прочность связи резины с металлом и тканью"
+msgstr ""
+
+#: page-test.php:103
+msgid "Удельное объемное электросопротивление"
+msgstr ""
+
+#: page-test.php:104
+msgid "Сопротивление истиранию, потери массы при истирании"
+msgstr ""
+
+#: page-test.php:105
+msgid "Герметичность, водонепроницаемость"
+msgstr ""
+
+#: page-test.php:106
+msgid ""
+"Кажущуюся плотность (для пористых изделий) статическую жесткость при сжатии."
+msgstr ""
+
+#: page-test.php:113
+msgid "Оборудование лаборатории"
+msgstr ""
+
+#: page-test.php:117
+msgid "Вискозометр"
+msgstr ""
+
+#: page-test.php:122
+msgid "Испытательная машина"
+msgstr ""
+
+#: page-test.php:127
+msgid "Испытательная камера"
+msgstr ""
+
+#: page-test.php:132 page-test.php:167
+msgid "Весы аналитические"
+msgstr ""
+
+#: page-test.php:137
+msgid "Абразиметр"
+msgstr ""
+
+#: page-test.php:142
+msgid "Климатическая камера"
+msgstr ""
+
+#: page-test.php:147
+msgid "Температура плавления"
+msgstr ""
+
+#: page-test.php:152
+msgid "Cпектрофотометр"
+msgstr ""
+
+#: page-test.php:157
+msgid "Влагомер весовой"
+msgstr ""
+
+#: page-test.php:162
+msgid "Электронный рН-метр"
+msgstr ""
+
+#: page-test.php:172
+msgid "Прочее"
+msgstr ""
+
+#: page-test.php:173
+msgid "Цифровое измерительное оборудование"
+msgstr ""
+
+#: page-test.php:176
+msgid "Все оборудование"
+msgstr ""
+
+#: page-test.php:182
+msgid "Контакты лаборатории"
+msgstr ""
+
+#: page-test.php:183
+msgid ""
+"По вопросам выполнения услуг по проведению испытаний для сторонних "
+"организаций в соответствии с областью аккредитации, вы можете обращаться:"
+msgstr ""
+
+#: page-test.php:186
+#, php-format
+msgid "Бирдус%s Татьяна Ростиславовна"
+msgstr ""
+
+#: page-test.php:187
+#, php-format
+msgid "руководитель испытательного%s центра"
+msgstr ""
+
+#: page-test.php:189 page-test.php:196
+msgid "Факс:"
+msgstr ""
+
+#: page-test.php:204
+#, php-format
+msgid "Демидова%s Инна Владимировна"
+msgstr ""
+
+#: page-test.php:205
+#, php-format
+msgid "начальник центральной %sлаборатории"
+msgstr ""
+
+#: page-test.php:207 page-test.php:218
+msgid "Тел:"
+msgstr ""
+
+#: page-test.php:215
+#, php-format
+msgid "Храмцова%s Лариса Анатольевна"
+msgstr ""
+
+#: page-test.php:216
+#, php-format
+msgid "заместитель начальника%s центральной лаборатории"
+msgstr ""
+
+#: page-thencs.php:21
+msgid "Благодарим за обращение"
+msgstr ""
+
+#: page-thencs.php:22
+msgid "Ваша заявка принята мы свяжемся с Вами в ближайшее время!"
+msgstr ""
+
+#: page-work.php:18
+msgid "Работа в RubEx Group"
+msgstr ""
+
+#: page-work.php:20
+msgid ""
+"Мы рады видеть Вас на странице, посвященной работе и карьере в компании "
+"RubEx Group. Здесь Вы сможете ознакомится со свежими вакансиями нашей "
+"компании, отправить резюме или узнать контакты отдела кадров."
+msgstr ""
+
+#: page-work.php:21
+msgid ""
+"В нашей компании работают целеустремленные и талантливые люди. Мы не только "
+"привлекаем квалифицированные кадры, но и помогаем нашим сотрудникам в "
+"обучении, обеспечивая лучшим достойный карьерный рост."
+msgstr ""
+
+#: page-work.php:23
+msgid "Вакансии"
+msgstr ""
+
+#: page-work.php:25
+msgid "Молодым специалистам"
+msgstr ""
+
+#: page-zacupki.php:19
+msgid "Контакты службы снабжения"
+msgstr ""
+
+#: page-zacupki.php:22
+#, php-format
+msgid "Щелкунов%s Александр Георгиевич"
+msgstr ""
+
+#: page-zacupki.php:23
+msgid "Начальник отдела закупок"
+msgstr ""
+
+#: page-zacupki.php:28
+#, php-format
+msgid "Щербакова%s Елена Викторовна"
+msgstr ""
+
+#: page-zacupki.php:29
+msgid "Руководитель тендерной группы"
+msgstr ""
+
+#: page-zacupki.php:34
+#, php-format
+msgid "Окунев%s Александр Николаевич"
+msgstr ""
+
+#: page-zacupki.php:35
+msgid "Специалист по организации тендеров"
+msgstr ""
+
+#: page-zacupki.php:41
+msgid "Контакты службы безопасности"
+msgstr ""
+
+#: page-zacupki.php:43
+msgid "Телефон доверия по фактам злоупотребления:"
+msgstr ""
+
+#: page-zacupki.php:53
+msgid "Дополнительные данные по закупкам"
+msgstr ""
+
+#: page-zacupki.php:68
+#, php-format
+msgid "Реализация%s неликвидов"
+msgstr ""
+
+#: sidebar-contacts.php:5 template-parts/sidebar-contacts.php:5
+msgid "Все подразделения"
+msgstr ""
+
+#: sidebar-contacts.php:7 template-parts/sidebar-contacts.php:7
+msgid "Управляющая компания"
+msgstr ""
+
+#: sidebar-contacts.php:8 template-parts/sidebar-contacts.php:8
+msgid "Активы"
+msgstr ""
+
+#: sidebar-contacts.php:9 template-parts/sidebar-contacts.php:9
+msgid "Территориальные подразделения"
+msgstr ""
+
+#: sidebar-contacts.php:10 template-parts/sidebar-contacts.php:10
+msgid "Розничные магазины"
+msgstr ""
+
+#: sidebar-contacts.php:15 template-parts/sidebar-contacts.php:15
+msgid "Контакт-центр"
+msgstr ""
+
+#: sidebar-contacts.php:16 sidebar-rekvisit.php:10
+msgid ""
+"Позвоните нам на бесплатную горячую линию и мы оперативно ответим на все "
+"ваши вопросы."
+msgstr ""
+
+#: sidebar-rekvisit.php:3
+msgid "Подразделения"
+msgstr ""
+
+#: sidebar-rekvisit.php:5
+msgid "RubEx Group"
+msgstr ""
+
+#: sidebar-rekvisit.php:6 template-parts/sidebar-rekvisit.php:11
+msgid "ОАО \"Курскрезинотехника\""
+msgstr ""
+
+#: sidebar-rekvisit.php:7 template-parts/sidebar-rekvisit.php:12
+msgid "ОАО \"Cаранский завод \"Резинотехника\""
+msgstr ""
+
+#: sidebar-rekvisit.php:9 template-parts/sidebar-rekvisit.php:17
+msgid "Контакт центр"
+msgstr ""
+
+#: single-antivibr.php:36 single-auto_primenen.php:72 single-colco.php:36
+#: single-flanc.php:35 single-konus_perehod.php:36 single-linza.php:36
+#: single-muft.php:35 single-mufta.php:35 single-otvod.php:36
+#: single-patrubok.php:35
+msgid "Наименование"
+msgstr ""
+
+#: single-antivibr.php:37 single-flanc.php:36 single-konus_perehod.php:37
+#: single-linza.php:37 single-muft.php:36 single-otvod.php:37
+#: single-patrubok.php:36
+msgid "Внутр. диаметр, мм"
+msgstr ""
+
+#: single-antivibr.php:38 single-flanc.php:38 single-konus_perehod.php:38
+#: single-muft.php:38 single-otvod.php:38 single-patrubok.php:37
+msgid "Износост. слой, мм"
+msgstr ""
+
+#: single-antivibr.php:39 single-flanc.php:39 single-konus_perehod.php:39
+#: single-linza.php:40 single-muft.php:39 single-otvod.php:39
+#: single-patrubok.php:38
+msgid "Рабочее давление, Мпа"
+msgstr ""
+
+#: single-antivibr.php:40 single-flanc.php:40 single-konus_perehod.php:40
+#: single-muft.php:40 single-otvod.php:40
+msgid "Вакуум, Мпа"
+msgstr ""
+
+#: single-auto.php:31 single-auto_primenen.php:29 single-prom.php:31
+#: single-rvd.php:28
+msgid "Внутренний слой"
+msgstr "Vnutrenni sloy"
+
+#: single-auto.php:35 single-auto_primenen.php:33 single-prom.php:35
+#: single-rvd.php:32
+msgid "Внешний слой"
+msgstr "Vneshni slou"
+
+#: single-auto.php:39 single-auto_primenen.php:37 single-prom.php:39
+#: single-rvd.php:36
+msgid "Прокладка"
+msgstr "Prokladka"
+
+#: single-auto.php:43 single-auto_primenen.php:41 single-prom.php:43
+#: single-pvh.php:29 single-rvd.php:40
+msgid "Температура"
+msgstr ""
+
+#: single-auto.php:47 single-auto_primenen.php:45 single-prom.php:47
+msgid "Предел прочности"
+msgstr ""
+
+#: single-auto.php:59 single-prom.php:59 single-pvh.php:45
+#: single-resinatkan.php:33 single-rvd.php:52
+msgid "Условные обозначения"
+msgstr ""
+
+#: single-auto.php:64 single-prom.php:64 single-pvh.php:50 single-pvh.php:96
+#: single-resinatkan.php:38 single-rvd.php:57 single-rvd.php:118
+msgid "Внутренний диаметр"
+msgstr ""
+
+#: single-auto.php:71 single-conveer-tkan.php:36 single-prom.php:71
+#: single-resinatkan.php:45 single-resinatkan.php:100 single-resinatkan.php:108
+#: single-rvd.php:64
+msgid "Количество прокладок"
+msgstr ""
+
+#: single-auto.php:78 single-prom.php:78 single-resinatkan.php:52
+#: single-rvd.php:71
+msgid "Толщина стенки"
+msgstr ""
+
+#: single-auto.php:85 single-prom.php:85 single-resinatkan.php:59
+#: single-rvd.php:78
+msgid "Максимальный радиус изгиба"
+msgstr ""
+
+#: single-auto.php:92 single-prom.php:92 single-resinatkan.php:66
+#: single-rvd.php:85 single-rvd.php:120
+msgid "Внешний диаметр"
+msgstr ""
+
+#: single-auto.php:99 single-prom.php:99 single-resinatkan.php:73
+#: single-rvd.php:92
+msgid "Примерный вес"
+msgstr ""
+
+#: single-auto.php:106 single-prom.php:106 single-pvh.php:64 single-pvh.php:98
+#: single-resinatkan.php:80 single-rvd.php:99
+msgid "Рабочее давление"
+msgstr ""
+
+#: single-auto.php:113 single-prom.php:113 single-resinatkan.php:87
+#: single-rvd.php:106
+msgid "Максимальная длина"
+msgstr ""
+
+#: single-auto.php:134 single-auto.php:135 single-auto.php:136
+#: single-auto.php:139 single-prom.php:134 single-prom.php:136
+#: single-prom.php:137 single-prom.php:138 single-pvh.php:104
+#: single-pvh.php:105 single-pvh.php:107 single-rvd.php:126 single-rvd.php:127
+#: single-rvd.php:128 single-rvd.php:129
+msgid "мм."
+msgstr ""
+
+#: single-auto.php:137 single-prom.php:140
+msgid "Бар"
+msgstr ""
+
+#: single-auto.php:138 single-prom.php:135
+msgid "ед."
+msgstr ""
+
+#: single-auto.php:140 single-prom.php:139
+msgid "кг. / м."
+msgstr ""
+
+#: single-auto.php:141 single-prom.php:141 single-pvh.php:109
+msgid "м."
+msgstr ""
+
+#: single-auto.php:163 single-auto_primenen.php:92 single-conveer-tkan.php:64
+#: single-conveer-tros.php:69 single-patrubok.php:56 single-prom.php:163
+#: single-resinatkan.php:129 single-resinatros.php:70 single-rvd.php:153
+#: single-shtuc.php:28 template-parts/upsells.php:6
+msgid "Похожие продукты"
+msgstr "Pohozgie produkti"
+
+#: single-auto_primenen.php:71
+msgid "Условное обозначение"
+msgstr ""
+
+#: single-auto_primenen.php:73
+msgid "Назначение"
+msgstr ""
+
+#: single-auto_primenen.php:74
+msgid "кг/шт"
+msgstr ""
+
+#: single-colco.php:37
+msgid "Внутр. диаметр трубопровода, мм"
+msgstr ""
+
+#: single-colco.php:38
+msgid "Внутр. диаметр кольца, мм"
+msgstr ""
+
+#: single-colco.php:39
+msgid "Внешний. диаметр кольца, мм"
+msgstr ""
+
+#: single-colco.php:40
+msgid "Высота кольца, мм"
+msgstr ""
+
+#: single-conveer-tkan.php:34 single-conveer-tros.php:35
+#: single-resinatkan.php:98 single-resinatkan.php:106 single-resinatros.php:45
+msgid "Тип ленты"
+msgstr "Belt type"
+
+#: single-conveer-tkan.php:35 single-resinatkan.php:99
+#: single-resinatkan.php:107
+msgid "Тип ткани прокладки"
+msgstr ""
+
+#: single-conveer-tkan.php:37 single-conveer-tros.php:37
+#: single-resinatkan.php:101 single-resinatkan.php:109 single-resinatros.php:47
+msgid "Прочность при разрыве по основе Н/мм"
+msgstr ""
+
+#: single-conveer-tkan.php:38 single-resinatkan.php:102
+#: single-resinatkan.php:110
+msgid "Вид борта"
+msgstr ""
+
+#: single-conveer-tros.php:36 single-resinatros.php:46
+msgid "Диаметр троса, мм"
+msgstr ""
+
+#: single-conveer-tros.php:38 single-resinatros.php:48
+msgid "Расчетная масса ленты (кг/м2)"
+msgstr ""
+
+#: single-conveer-tros.php:39 single-resinatros.php:49
+msgid "Толщина ленты, мм"
+msgstr ""
+
+#: single-conveer-tros.php:40 single-flanc.php:37 single-linza.php:38
+#: single-muft.php:37 single-resinatros.php:50
+msgid "Длина, м"
+msgstr ""
+
+#: single-linza.php:39
+msgid "Допустимые перемещения"
+msgstr ""
+
+#: single-linza.php:45
+msgid "Сжатие, мм"
+msgstr ""
+
+#: single-linza.php:46
+msgid "Растяжение, мм"
+msgstr ""
+
+#: single-linza.php:47
+msgid "Сдвиг, мм"
+msgstr ""
+
+#: single-linza.php:48
+msgid "Угол, град"
+msgstr ""
+
+#: single-mufta.php:36
+msgid "Диаметр трубопровода, мм"
+msgstr ""
+
+#: single-mufta.php:37
+msgid "Присоединительные размеры, мм"
+msgstr ""
+
+#: single-mufta.php:38
+msgid "Количество отверстий в ответном фланце"
+msgstr ""
+
+#: single-mufta.php:39
+msgid "Ширина паза, мм"
+msgstr ""
+
+#: single-mufta.php:40
+msgid "Высота муфты, мм"
+msgstr ""
+
+#: single-mufta.php:41
+msgid "Толщина фланца"
+msgstr ""
+
+#: single-mufta.php:42
+msgid "Рабочее давление, МПа"
+msgstr ""
+
+#: single-otvod.php:41
+msgid "AxB, мм"
+msgstr ""
+
+#: single-otvod.php:42
+msgid "Радиус изгиба, мм"
+msgstr ""
+
+#: single-pvh.php:33
+msgid "Цвет"
+msgstr ""
+
+#: single-pvh.php:57 single-pvh.php:97
+msgid "Толщина стенок"
+msgstr ""
+
+#: single-pvh.php:78 single-pvh.php:100
+msgid "Рабочее разряжение"
+msgstr ""
+
+#: single-pvh.php:85 single-pvh.php:101
+msgid "Длина бухты"
+msgstr ""
+
+#: single-pvh.php:106 single-pvh.php:108 single-rvd.php:130 single-rvd.php:131
+#: single-rvd.php:132
+msgid "Бар."
+msgstr ""
+
+#: single-resinatkan.php:162 single-resinatros.php:103
+msgid "Rubex Price"
+msgstr ""
+
+#: single-resinatkan.php:163 single-resinatros.php:104
+#: template-parts/price-block.php:5
+msgid "Интернет магазин РТИ"
+msgstr ""
+
+#: single-resinatkan.php:164 single-resinatros.php:105
+msgid ""
+"Далеко-далеко за словесными горами в стране, гласных и согласных живут "
+"рыбные тексты. Всеми грустный послушавшись несколько парадигматическая лучше "
+"предложения ее ты, безопасную, проектах, решила все единственное маленький? "
+"Но языкового текст вскоре запятой."
+msgstr ""
+
+#: single-resinatkan.php:165 single-resinatros.php:106
+#: template-parts/price-block.php:7
+msgid "Перейти в магазин"
+msgstr ""
+
+#: single-rvd.php:117
+msgid "Номинальный диаметр"
+msgstr ""
+
+#: single-rvd.php:119
+msgid "Диаметр с оплетками"
+msgstr ""
+
+#: single-rvd.php:121
+msgid "Рабочее давление (Бар)"
+msgstr ""
+
+#: single-rvd.php:122
+msgid "Тестовое давление"
+msgstr ""
+
+#: single-rvd.php:123
+msgid "Давление на разрыв"
+msgstr ""
+
+#: template-parts/about-arcticles.php:5 template-parts/arcticles.php:5
+#: template-parts/articles.php:5
+msgid "Карьера в RubEx Group"
+msgstr ""
+
+#: template-parts/articles.php:29
+msgid "Сервисный центр"
+msgstr ""
+
+#: template-parts/articles.php:36
+msgid "Испытательный центр"
+msgstr ""
+
+#: template-parts/callback-form.php:3
+msgid "Обратная связь"
+msgstr ""
+
+#: template-parts/callback-form.php:9
+msgid "Регион"
+msgstr ""
+
+#: template-parts/callback-form.php:15
+msgid "Общие вопросы"
+msgstr ""
+
+#: template-parts/callback-form.php:16
+msgid "Маркетинг"
+msgstr ""
+
+#: template-parts/callback-form.php:18
+msgid "Закупки"
+msgstr ""
+
+#: template-parts/callback-form.php:19
+msgid "Продажи"
+msgstr ""
+
+#: template-parts/callback-form.php:21
+msgid "Служба безопасности"
+msgstr ""
+
+#: template-parts/callback-form.php:26
+msgid "Нажимая на кнопку "
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/magazin-TovarPriv2.php:47
+msgid "Интернет магазин"
+msgstr ""
+
+#: template-parts/menu.php:12
+msgid "Общего назначения"
+msgstr ""
+
+#: template-parts/menu.php:14
+msgid "Резинотканевая конвейерная лента общего назначения"
+msgstr ""
+
+#: template-parts/menu.php:15
+msgid "Резинотканевая конвейерная лента для легких условий эксплуатации"
+msgstr ""
+
+#: template-parts/menu.php:16
+msgid "Резинотросовая лента"
+msgstr ""
+
+#: template-parts/menu.php:17 template-parts/menu.php:26
+#: template-parts/menu.php:33 template-parts/menu.php:43
+#: template-parts/menu.php:52 template-parts/menu.php:59
+#: template-parts/menu.php:70 template-parts/menu.php:79
+#: template-parts/menu.php:86
+#, fuzzy
+#| msgid "Тип ленты"
+msgid "Все ленты"
+msgstr "Belt type"
+
+#: template-parts/menu.php:21
+msgid "Износостойкая"
+msgstr ""
+
+#: template-parts/menu.php:23
+msgid "Конвейерная лента W"
+msgstr ""
+
+#: template-parts/menu.php:24
+msgid "Конвейерная лента X"
+msgstr ""
+
+#: template-parts/menu.php:25
+msgid "Резинотросовая изностостойкая ковейерная лента"
+msgstr ""
+
+#: template-parts/menu.php:30
+msgid "Антистатическая"
+msgstr ""
+
+#: template-parts/menu.php:32
+msgid "Антистатическая конвейерная лента"
+msgstr ""
+
+#: template-parts/menu.php:39
+msgid "Морозостойкая"
+msgstr ""
+
+#: template-parts/menu.php:41
+msgid "Резинотканевая морозостойкая конвейерная лента"
+msgstr ""
+
+#: template-parts/menu.php:42
+msgid "Резинотросовая  морозостойкая конвейерная лента"
+msgstr ""
+
+#: template-parts/menu.php:47
+msgid "Шахтная"
+msgstr ""
+
+#: template-parts/menu.php:49
+msgid "Трудносгораемая"
+msgstr ""
+
+#: template-parts/menu.php:50
+msgid "Трудновоспламеняющаяся"
+msgstr ""
+
+#: template-parts/menu.php:51
+msgid "Трудновоспламеняющаяся морозостойкая"
+msgstr ""
+
+#: template-parts/menu.php:56
+msgid "Пищевая"
+msgstr ""
+
+#: template-parts/menu.php:58
+msgid "Конвейерная лента пищевая"
+msgstr ""
+
+#: template-parts/menu.php:65
+msgid "Теплостойкая"
+msgstr ""
+
+#: template-parts/menu.php:67
+msgid "Конвейерная лента Т-1 [до 100°C]"
+msgstr ""
+
+#: template-parts/menu.php:68
+msgid "Конвейерная лента Т3С [до 180°C]"
+msgstr ""
+
+#: template-parts/menu.php:69
+msgid "Конвейерная лента Т-3 [до 300°C]"
+msgstr ""
+
+#: template-parts/menu.php:74
+msgid "Маслостойкая"
+msgstr ""
+
+#: template-parts/menu.php:76
+msgid "Маслостойкая конвейерная лента"
+msgstr ""
+
+#: template-parts/menu.php:77
+msgid "Маслотеплостойкая лента [до 200°C]"
+msgstr ""
+
+#: template-parts/menu.php:78
+msgid "Маслотепломорозостойкая лента"
+msgstr ""
+
+#: template-parts/menu.php:83
+msgid "Кислотощелочестойкая"
+msgstr ""
+
+#: template-parts/menu.php:85
+msgid "Кислотощелочестойкая лента"
+msgstr ""
+
+#: template-parts/menu.php:95 template-parts/menu.php:187
+#: template-parts/menu.php:240 template-parts/menu.php:280
+#: template-parts/menu.php:338
+msgid "Купить онлайн"
+msgstr ""
+
+#: template-parts/menu.php:106
+msgid "Для сварки"
+msgstr ""
+
+#: template-parts/menu.php:108
+msgid "ГОСТ 9356-75"
+msgstr ""
+
+#: template-parts/menu.php:109
+msgid "ТУ 2554-282-00149245-2003"
+msgstr ""
+
+#: template-parts/menu.php:110 template-parts/menu.php:119
+#: template-parts/menu.php:126 template-parts/menu.php:136
+#: template-parts/menu.php:145 template-parts/menu.php:152
+#: template-parts/menu.php:162 template-parts/menu.php:171
+#: template-parts/menu.php:178 template-parts/menu.php:205
+#: template-parts/menu.php:216 template-parts/menu.php:225
+#: template-parts/menu.php:232 template-parts/menu.php:295
+#: template-parts/menu.php:302 template-parts/menu.php:311
+#: template-parts/menu.php:321 template-parts/menu.php:330
+msgid "Все рукава"
+msgstr ""
+
+#: template-parts/menu.php:114
+msgid "Для минеральных масел"
+msgstr ""
+
+#: template-parts/menu.php:116
+msgid "ГОСТ 18698-79 класс Б"
+msgstr ""
+
+#: template-parts/menu.php:117
+msgid "ГОСТ 5398-76 класс Б"
+msgstr ""
+
+#: template-parts/menu.php:118
+msgid "ТУ 38.105373-91"
+msgstr ""
+
+#: template-parts/menu.php:123
+msgid "Для горячей воды"
+msgstr ""
+
+#: template-parts/menu.php:125
+msgid "ГОСТ 18698-79 класс ВГ [до 100°C]"
+msgstr ""
+
+#: template-parts/menu.php:132
+msgid "Для промышленной воды"
+msgstr ""
+
+#: template-parts/menu.php:134
+msgid "ГОСТ 18698-79 класс В"
+msgstr ""
+
+#: template-parts/menu.php:135
+msgid "ГОСТ 5398-76 класс В"
+msgstr ""
+
+#: template-parts/menu.php:140
+msgid "Для абразива"
+msgstr ""
+
+#: template-parts/menu.php:142
+msgid "ГОСТ 18698-79 класс Ш"
+msgstr ""
+
+#: template-parts/menu.php:149
+msgid "Для пара"
+msgstr ""
+
+#: template-parts/menu.php:151
+msgid "ГОСТ 18698-79 класс ПАР-1 и ПАР-2"
+msgstr ""
+
+#: template-parts/menu.php:158
+msgid "Для поливки"
+msgstr ""
+
+#: template-parts/menu.php:160
+msgid "ТУ 38.1051731-86 тип В"
+msgstr ""
+
+#: template-parts/menu.php:161
+msgid "ТУ 38.605163-91"
+msgstr ""
+
+#: template-parts/menu.php:166
+msgid "Для химических веществ"
+msgstr ""
+
+#: template-parts/menu.php:168
+msgid "ГОСТ 5398-76 класс КЩ"
+msgstr ""
+
+#: template-parts/menu.php:169
+msgid "ТУ 38.105985-81"
+msgstr ""
+
+#: template-parts/menu.php:170
+msgid "ТУ 2554-300-00149245-2008"
+msgstr ""
+
+#: template-parts/menu.php:175
+msgid "Для газа"
+msgstr ""
+
+#: template-parts/menu.php:177
+msgid "ГОСТ 5398-76 класс Г"
+msgstr ""
+
+#: template-parts/menu.php:185
+#: template-parts/productsitebar/sidebar-prom.php:31
+#: template-parts/sidebar-product-cat.php:43 template-parts/sidebar.php:64
+msgid "Расчет параметров"
+msgstr ""
+
+#: template-parts/menu.php:197
+msgid "РВД с оплеткой"
+msgstr ""
+
+#: template-parts/menu.php:203
+msgid "ГОСТ 6286-73 (1 SN"
+msgstr ""
+
+#: template-parts/menu.php:204
+msgid "ГОСТ 6286-73 (2 SN)"
+msgstr ""
+
+#: template-parts/menu.php:211
+msgid "РВД с навивкой"
+msgstr ""
+
+#: template-parts/menu.php:215
+msgid "ГОСТ 25452-90 (аналог EN 856 4 SP И 4 SH"
+msgstr ""
+
+#: template-parts/menu.php:222
+msgid "Буровые рукава"
+msgstr ""
+
+#: template-parts/menu.php:224
+msgid "ТУ 38.105557-83"
+msgstr ""
+
+#: template-parts/menu.php:229
+msgid "Штуцерованные РВД"
+msgstr ""
+
+#: template-parts/menu.php:231
+msgid "РВД с концевой арматурой"
+msgstr ""
+
+#: template-parts/menu.php:247
+msgid "ПВХ (PVC) рукава"
+msgstr ""
+
+#: template-parts/menu.php:251
+msgid "Для промышленной воды и ассенизации"
+msgstr ""
+
+#: template-parts/menu.php:260
+msgid "Для применения в сельском хозяйстве и транспортировки пищевых продуктов"
+msgstr ""
+
+#: template-parts/menu.php:269
+msgid "Для нефтепродуктов и минеральных масел"
+msgstr ""
+
+#: template-parts/menu.php:286
+msgid "Рукава для авто"
+msgstr ""
+
+#: template-parts/menu.php:290
+msgid "Топливная система"
+msgstr ""
+
+#: template-parts/menu.php:292
+msgid "ГОСТ 10362-76"
+msgstr ""
+
+#: template-parts/menu.php:293
+msgid "ТУ 38.1051136-77"
+msgstr ""
+
+#: template-parts/menu.php:294
+msgid "ТУ 0056016-87"
+msgstr ""
+
+#: template-parts/menu.php:299
+msgid "Рукава для подкачки шин"
+msgstr ""
+
+#: template-parts/menu.php:301
+msgid "ТУ 2556-063-00149334-2013"
+msgstr ""
+
+#: template-parts/menu.php:308
+msgid "Отопительная система"
+msgstr ""
+
+#: template-parts/menu.php:310
+msgid "ТУ 75.06008-30-90"
+msgstr ""
+
+#: template-parts/menu.php:318
+msgid "Система охлаждения"
+msgstr ""
+
+#: template-parts/menu.php:320
+msgid "ТУ 38.1051909-89"
+msgstr ""
+
+#: template-parts/menu.php:327
+msgid "Гидроусилитель руля"
+msgstr ""
+
+#: template-parts/menu.php:329
+msgid "ТУ 2556-036-00149334-2005"
+msgstr ""
+
+#: template-parts/menu.php:346 template-parts/sidebar-news-cat.php:15
+#: template-parts/sidebar-project.php:12
+msgid "Техническая пластина"
+msgstr ""
+
+#: template-parts/menu.php:347 template-parts/sidebar-news-cat.php:17
+#: template-parts/sidebar-project.php:14
+msgid "Резиновые смеси"
+msgstr ""
+
+#: template-parts/menu.php:348
+msgid "Формовые и неформовые РТИ"
+msgstr ""
+
+#: template-parts/price-block.php:6
+msgid ""
+"Актуальные цены, полный ассортимент РТИ, система лояльности, индивидуальные "
+"скидки, заказ РТИ в режиме онлайн"
+msgstr ""
+
+#: template-parts/productsitebar/sidebar-blt.php:17
+#: template-parts/productsitebar/sidebar-fnf.php:18
+#: template-parts/productsitebar/sidebar-prom.php:18
+#: template-parts/productsitebar/sidebar-pvh.php:18
+#: template-parts/productsitebar/sidebar-rukava-avto.php:18
+#: template-parts/productsitebar/sidebar-rvd.php:18
+#: template-parts/productsitebar/sidebar-shlam.php:18
+#: template-parts/productsitebar/sidebar-smesi.php:18
+#: template-parts/productsitebar/sidebar-tehplastina.php:18
+#: template-parts/sidebar-product-cat.php:28
+msgid "Все подкатегории"
+msgstr ""
+
+#: template-parts/productsitebar/sidebar-blt.php:28
+#: template-parts/productsitebar/sidebar-fnf.php:28
+#: template-parts/productsitebar/sidebar-prom.php:28
+#: template-parts/productsitebar/sidebar-rukava-avto.php:28
+#: template-parts/productsitebar/sidebar-rvd.php:29
+#: template-parts/productsitebar/sidebar-shlam.php:28
+#: template-parts/productsitebar/sidebar-smesi.php:28
+#: template-parts/productsitebar/sidebar-tehplastina.php:29
+#: template-parts/sidebar-product-cat.php:38 template-parts/sidebar.php:58
+msgid "Полезные материалы"
+msgstr ""
+
+#: template-parts/productsitebar/sidebar-blt.php:33
+#: template-parts/productsitebar/sidebar-fnf.php:30
+#: template-parts/productsitebar/sidebar-prom.php:35
+#: template-parts/productsitebar/sidebar-pvh.php:49
+#: template-parts/productsitebar/sidebar-rukava-avto.php:30
+#: template-parts/productsitebar/sidebar-rvd.php:34
+#: template-parts/productsitebar/sidebar-shlam.php:30
+#: template-parts/productsitebar/sidebar-smesi.php:30
+#: template-parts/productsitebar/sidebar-tehplastina.php:31
+#: template-parts/sidebar-product-cat.php:52 template-parts/sidebar.php:68
+msgid "В магазин РТИ"
+msgstr ""
+
+#: template-parts/productsitebar/sidebar-pvh.php:28
+#, fuzzy
+#| msgid "Похожие продукты"
+msgid "Фото нашей продукции"
+msgstr "Pohozgie produkti"
+
+#: template-parts/productsitebar/sidebar-pvh.php:31
+#: template-parts/productsitebar/sidebar-pvh.php:32
+#: template-parts/productsitebar/sidebar-pvh.php:33
+#: template-parts/productsitebar/sidebar-pvh.php:34
+#: template-parts/productsitebar/sidebar-pvh.php:35
+#: template-parts/productsitebar/sidebar-pvh.php:36
+msgid "ПВХ рукава производства RubEx Group"
+msgstr ""
+
+#: template-parts/productsitebar/sidebar-pvh.php:40
+msgid "Контакты менеджера"
+msgstr ""
+
+#: template-parts/productsitebar/sidebar-pvh.php:41
+msgid "По вопросам приобретения ПВХ рукавов обращайтесь по телефону"
+msgstr ""
+
+#: template-parts/productsitebar/sidebar-pvh.php:48
+msgid "Свидетельство"
+msgstr ""
+
+#: template-parts/sidebar-calc-hoses.php:4
+msgid "Расчет производительности рукава"
+msgstr ""
+
+#: template-parts/sidebar-calc-hoses.php:5
+msgid "Расчет необходимого давления на линии"
+msgstr ""
+
+#: template-parts/sidebar-calc-hoses.php:6
+msgid "Расчет подходящего диаметра"
+msgstr ""
+
+#: template-parts/sidebar-calc-hoses.php:7
+msgid "Расчет гидропотерь"
+msgstr ""
+
+#: template-parts/sidebar-news-cat.php:7 template-parts/sidebar-news-cat.php:10
+#: template-parts/sidebar-news.php:7 template-parts/sidebar-news.php:19
+#: template-parts/sidebar-project.php:5 template-parts/sidebar-project.php:7
+msgid "Все направления"
+msgstr ""
+
+#: template-parts/sidebar-news-cat.php:11 template-parts/sidebar-project.php:8
+msgid "Общекорпоративные"
+msgstr ""
+
+#: template-parts/sidebar-news-cat.php:14 template-parts/sidebar-project.php:11
+msgid "Гидравлические рукава"
+msgstr ""
+
+#: template-parts/sidebar-news-cat.php:16 template-parts/sidebar-project.php:13
+msgid "Формовые и неформовые"
+msgstr ""
+
+#: template-parts/sidebar-news-cat.php:23 template-parts/sidebar-news.php:39
+msgid "Период"
+msgstr ""
+
+#: template-parts/sidebar.php:4
+msgid "Сфера применения"
+msgstr ""

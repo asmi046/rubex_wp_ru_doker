@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    src: url(../fonts/Lato2OFLWeb/Lato-Regular.eot);
+    src: url(../fonts/Lato2OFLWeb/Lato-Regular.eot?#iefix) format("embedded-opentype"), 
+        url(../fonts/Lato2OFLWeb/Lato-Regular.woff2) format("woff2"), 
+        url(../fonts/Lato2OFLWeb/Lato-Regular.woff) format("woff"), 
+        url(../fonts/Lato2OFLWeb/Lato-Regular.ttf) format("truetype")
+  }
+
+  @font-face {
+    font-family: LatoHeavy;
+    font-weight: 700;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    src: url(../fonts/Lato2OFLWeb/Lato-Heavy.eot);
+    src: url(../fonts/Lato2OFLWeb/Lato-Heavy.eot?#iefix) format("embedded-opentype"), 
+        url(../fonts/Lato2OFLWeb/Lato-Heavy.woff2) format("woff2"), 
+        url(../fonts/Lato2OFLWeb/Lato-Heavy.woff) format("woff"), 
+        url(../fonts/Lato2OFLWeb/Lato-Heavy.ttf) format("truetype")
+  }
+
+  input,button {outline: 0 !important;}
+
+body {
+    width:100%;
+    display:flex; 
+    flex-direction: column;
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    background: url("bg.jpg");
+}
+
+.wrapper {
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    height: 100%;
+}
+
+h1 {
+    margin: 0px auto 60px auto;
+    font-family: LatoHeavy;
+    text-align: center;
+    font-size: 6vw;
+    text-transform: uppercase;
+    color:white
+
+}
+
+.buttonStart {
+    background-color: #C4041C;
+    color: white;
+    border: none;
+    width:100%;
+    min-height: 37vh;
+    font-size: 8vw;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 25vh;
+    text-transform: uppercase;
+}
+
+.buttonStartGreen {
+    background-color: green;
+}
+
+.undo {
+    width: 20px;
+    height: 20px;
+    background-image:url(undo.svg) ;
+    background-position: center;
+    background-size: cover;
+    margin: 5px auto 0;
+}
+
+
+@media screen and (max-width:600px) { 
+
+}

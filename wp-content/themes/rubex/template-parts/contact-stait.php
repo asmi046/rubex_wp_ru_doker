@@ -1,0 +1,14 @@
+<option value="" disabled selected><?_e("Выберите страну","rubex");?>*</option>
+<option value="Россия"><?_e("Россия","rubex");?></option>
+<option value="Азербайджан"><?_e("Азербайджан","rubex");?></option>
+<option value="Армения"><?_e("Армения","rubex");?></option>
+<option value="Белоруссия"><?_e("Белоруссия","rubex");?></option>
+<option value="Казахстан"><?_e("Казахстан","rubex");?></option>
+<option value="Киргизия"><?_e("Киргизия","rubex");?></option>
+<option value="Молдавия"><?_e("Молдавия","rubex");?></option>
+<option value="Таджикистан"><?_e("Таджикистан","rubex");?></option>
+<option value="Туркменистан"><?_e("Туркменистан","rubex");?></option>
+<option value="Узбекистан"><?_e("Узбекистан","rubex");?></option>
+<option value="Украина"><?_e("Украина","rubex");?></option>
+<option value="Страны Евросоюза"><?_e("Страны Евросоюза","rubex");?></option>
+<option value="Другие государства"><?_e("Другие государства","rubex");?></option>

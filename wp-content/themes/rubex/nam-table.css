@@ -1,0 +1,8 @@
+.num_price_table img {
+    width:50px;
+    margin: 5px;
+}
+
+.num_price_table .product-main__table .img_td {
+    min-width: 70px;
+}

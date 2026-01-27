@@ -1,0 +1,70 @@
+.opr_blk_disabled {
+    pointer-events: none;
+    opacity: 0.5;
+
+}
+
+.sub_comment {
+    color:#333;
+    font-size: 12px;
+    margin-top: 0; 
+}
+
+.otv_blk {
+    width:100%;
+    max-width: 900px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #e7e8ea;
+}
+
+.opros_q {
+    width: 100%;
+}
+
+.opros_q label {
+    font-size: 14px;
+}
+
+.opros_q .formHead {
+    margin-bottom: 5px;
+}
+
+
+.counter-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e8ea;
+    margin: 10px 0;
+}
+
+
+.counter-wrapper label{
+    margin: auto auto auto 0;
+}
+
+.other_variant {
+    margin-top: 20px;
+}
+
+.otv_blk input[type=text] {
+    border-radius: 10px;
+}
+
+
+.counter-wrapper select,
+
+.counter-wrapper input[type=number]{
+    width:100px;
+    min-width:100px;
+    border-radius: 10px;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.counter-wrapper select{
+    width:100px;
+    border-radius: 10px;
+    height: 37px;
+    margin: auto 0 0  auto;
+}

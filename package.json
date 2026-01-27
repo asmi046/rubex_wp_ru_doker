@@ -1,0 +1,19 @@
+{
+  "name": "rubex_wp_ru_doker",
+  "version": "1.0.0",
+  "description": "RubEx WP them",
+  "license": "ISC",
+  "author": "Asmi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "sync:theme": "rsync -avz --delete ./wp-content/themes/rubex/ krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/themes/rubex/",
+    "sync:plugins": "rsync -avz --delete ./wp-content/plugins/ krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/plugins/",
+    "sync:all": "npm run sync:theme && npm run sync:plugins"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1"
+  }
+}
