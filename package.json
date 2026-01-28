@@ -8,9 +8,14 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "sync:theme": "rsync -avz --delete ./wp-content/themes/rubex/ krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/themes/rubex/",
-    "sync:plugins": "rsync -avz --delete ./wp-content/plugins/ krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/plugins/",
-    "sync:all": "npm run sync:theme && npm run sync:plugins"
+    "sync:theme:push": "rsync -avz ./wp-content/themes/rubex/ krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/themes/rubex/",
+    "sync:theme:pull": "rsync -avz krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/themes/rubex/ ./wp-content/themes/rubex/",
+    "sync:plugins:push": "rsync -avz ./wp-content/plugins/ krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/plugins/",
+    "sync:plugins:pull": "rsync -avz krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/plugins/ ./wp-content/plugins/",
+    "sync:uploads:push": "rsync -avz ./wp-content/uploads/ krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/uploads/",
+    "sync:uploads:pull": "rsync -avz krtiru@77.222.40.60:rubexgroup_dk/public_html/wp-content/uploads/ ./wp-content/uploads/",
+    "sync:all:push": "npm run sync:theme:push && npm run sync:plugins:push && npm run sync:uploads:push",
+    "sync:all:pull": "npm run sync:theme:pull && npm run sync:plugins:pull && npm run sync:uploads:pull"
   },
   "devDependencies": {
     "browser-sync": "^3.0.4",

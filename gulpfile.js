@@ -5,23 +5,22 @@ function serve(done) {
     browserSync.init({
         proxy: 'localhost:8091',
         port: 3091,
-        open: false
+        open: false,
+        injectChanges: false
     });
     done();
 }
 
 function reload(done) {
-    browserSync.reload();
+    browserSync.reload({ stream: false });
     done();
 }
 
 function watch() {
     gulp.watch('./wp-content/themes/rubex/**/*.php', reload);
-    gulp.watch('./wp-content/themes/rubex/**/*.css', reload);
-    gulp.watch('./wp-content/themes/rubex/**/*.js', reload);
-    gulp.watch('./wp-content/themes/rubex/**/*.jpg', reload);
-    gulp.watch('./wp-content/themes/rubex/**/*.webp', reload);
-    gulp.watch('./wp-content/themes/rubex/**/*.png', reload);
+    gulp.watch('./wp-content/themes/rubex/**/*.css').on('change', browserSync.reload);
+    gulp.watch('./wp-content/themes/rubex/**/*.js').on('change', browserSync.reload);
+    gulp.watch('./wp-content/themes/rubex/**/*.{jpg,jpeg,png,gif,webp,svg}').on('change', browserSync.reload);
 }
 
 exports.default = gulp.series(serve, watch);

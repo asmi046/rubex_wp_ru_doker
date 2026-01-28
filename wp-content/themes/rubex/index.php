@@ -41,7 +41,6 @@ get_header();
 					</div>
 				</div>
 			</div>
-		  
         <?php 
         $i++;
         endforeach;?>
