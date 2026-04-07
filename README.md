@@ -1,5 +1,5 @@
 # RubEx WP RU Docker
-
+[package](package.json)
 Минимальный Docker-окружение для WordPress и тема RubEx.
 
 ## Запуск

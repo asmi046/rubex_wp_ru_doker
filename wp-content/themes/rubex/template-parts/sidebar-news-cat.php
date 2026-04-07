@@ -21,7 +21,9 @@
     </div> -->
     <div class="sidebar-title sidebar-title-hidden"><?_e("Период","rubex");?></div>
     <ul class="ul-clean sidebar-period">
-      <li><a href="#" class="active">2024</a></li>
+      <li><a href="#" class="active">2026</a></li>
+      <li><a href="#">2025</a></li>
+      <li><a href="#">2024</a></li>
       <li><a href="#">2023</a></li>
       <li><a href="#">2022</a></li>
       <li><a href="#">2021</a></li>
