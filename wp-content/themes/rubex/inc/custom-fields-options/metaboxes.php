@@ -847,6 +847,11 @@ Container::make('post_meta', 'as_page_zacupki', 'Дополнительные п
     Field::make('file', 'zac_file_11', 'Файл документа')
       ->set_width(50)
       ->set_value_type('url'),
+    Field::make('text', 'zac_title_12', 'Название файла (12)')
+      ->set_width(50),
+    Field::make('file', 'zac_file_12', 'Файл документа (12)')
+      ->set_width(50)
+      ->set_value_type('url'),
   ));
   
 //Рубрика товара

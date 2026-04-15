@@ -113,6 +113,10 @@ get_header();
 								<div class="data-item__text"><?php echo carbon_get_the_post_meta('zac_title_11'); ?></div>
 								<a href="<?php echo carbon_get_the_post_meta('zac_file_11'); ?>" class="data-item__link" target="_blank"><? _e("Скачать", "rubex"); ?></a>
 							</div>
+							<div class="data-item">
+								<div class="data-item__text"><?php echo carbon_get_the_post_meta('zac_title_12'); ?></div>
+								<a href="<?php echo carbon_get_the_post_meta('zac_file_12'); ?>" class="data-item__link" target="_blank"><? _e("Скачать", "rubex"); ?></a>
+							</div>
 						</div>
 					</div>
 				</div>
