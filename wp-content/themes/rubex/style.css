@@ -7650,6 +7650,7 @@ form.rezidentForm .radio-wrapper:first-child {
   background-size: cover;
   background-image: url(./img/phone-modal.jpg);
   flex-shrink: 0;
+  flex: 1;
 }
 
 #obrashenie-modal .modal_win_wraper_photo {
@@ -10078,7 +10079,8 @@ select:-webkit-autofill:focus {
 
 
   .articles-item__title {
-    font-size: 26px
+    font-size: 26px;
+    word-wrap: break-word;
   }
 
   .category-list__item {
@@ -10145,9 +10147,9 @@ select:-webkit-autofill:focus {
     margin-bottom: 20px;
   }
 
-  .footer {
+  /* .footer {
     padding-bottom: 95px;
-  }
+  } */
 
   .footer-contacts {
     width: 100%;

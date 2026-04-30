@@ -520,8 +520,11 @@ get_header();
 					<input type="text" name="semail" value="" id="semail">
 				</div>
 				
+				<?php get_template_part('template-parts/callback-note');?>
 				<div class="trueButton osinContact" id="vacancySubmit">Отправить</div>
-				<p class="note-form">Нажимая на кнопку "Отправить", вы соглашаетесь с условиями <a class = "color-red" href="<?php echo get_permalink(19641);?>" target="_blank">обработки персональных данных</a>.</p>
+				<br>
+				<br>
+				<!-- <p class="note-form">Нажимая на кнопку "Отправить", вы соглашаетесь с условиями <a class = "color-red" href="<?php echo get_permalink(19641);?>" target="_blank">обработки персональных данных</a>.</p> -->
 			</form>
 	
 	</div>

@@ -6,3 +6,30 @@
 .num_price_table .product-main__table .img_td {
     min-width: 70px;
 }
+
+.footer-bottom {
+    background-color: #3a3a3c;
+    color:white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom a{
+    color: white;
+    font-size: 12px;
+    
+}
+
+.footer-bottom hr {
+    margin: 20px auto;
+    width: 80%;
+    border-color: white;
+    height: 1px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width:450px) {
+    .footer-bottom {
+        padding-bottom: 100px;
+    }
+}

@@ -14,10 +14,17 @@
 
 get_header();
 ?>
+<section class="header-bnr" style="background-image: url(<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('page_banner'), 'full')[0]; ?>)"></section>
+<div class="container">
+	<?php
+		if ( function_exists('yoast_breadcrumb') ) {
+		  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+		}
+    ?>
+</div>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-		  <section class="header-bnr" style="background-image: url(<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('page_banner'), 'full')[0];?>)"></section>
 			<div class="container">
 		<?php
 		while ( have_posts() ) :

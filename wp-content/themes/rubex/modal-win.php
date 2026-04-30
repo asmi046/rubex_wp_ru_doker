@@ -23,7 +23,10 @@
         </div>
         <input type="hidden" class="file-path">
         <textarea name="comment" placeholder="Комментарий"></textarea>
-        <a href="#" class="trueButton uniSendBtn"><?_e("Отправить","rubex");?></a>
+		
+		<?php get_template_part('template-parts/callback-note');?>
+        
+		<a href="#" class="trueButton uniSendBtn"><?_e("Отправить","rubex");?></a>
       </form>
     </div>
     
@@ -94,6 +97,9 @@
 					<!--<label for="obr_msg" class="blaclLabel">Сообщение<span class="color-red">*</span></label>-->
 					<textarea name="obr_msg" id="obr_msg" placeholder = "<?_e("Сообщение*","rubex");?>" ></textarea>
 				</div>
+
+				<!-- <div class="callback-note snoska"><?_e('Нажимая на кнопку "Отправить", вы соглашаетесь с',"rubex");?> <a class="tdu" href="<?php echo get_permalink(19641);?>"><?_e("условиями обработки персональных данных","rubex");?></a>.</div> -->
+				<?php get_template_part('template-parts/callback-note');?>
 				
 				<div class="form-block">
 					<button class="trueButton" id="obrashenieSubmit"><?_e("Отправить","rubex");?></button>
@@ -157,8 +163,8 @@
 					</div>
 					
 					
-    				<div class="callback-note snoska"><?_e('Нажимая на кнопку "Отправить", вы соглашаетесь с',"rubex");?> <a class="tdu" href="<?php echo get_permalink(19641);?>"><?_e("условиями обработки персональных данных","rubex");?></a>.</div>
-					
+    				<!-- <div class="callback-note snoska"><?_e('Нажимая на кнопку "Отправить", вы соглашаетесь с',"rubex");?> <a class="tdu" href="<?php echo get_permalink(19641);?>"><?_e("условиями обработки персональных данных","rubex");?></a>.</div> -->
+					<?php get_template_part('template-parts/callback-note');?>
 					<div class="form-block">
 						<button class="trueButton" id="zvonokSubmit"><?_e("Отправить","rubex");?></button>
 					</div>

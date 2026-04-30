@@ -29,6 +29,15 @@
       </div>
     </div>
   </footer>
+  <section class="footer-bottom">
+      
+    <div class="container">
+    <hr>  
+    <a href="<?php echo get_permalink(19641);?>">Политика в отношении обработки персональных данных и обеспечения конфиденциальности</a>
+      <br>
+      <a href="<?php echo get_permalink(23478);?>">СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ</a>
+    </div>
+  </section>
 </div><!-- #page -->
 <div class="footer-fixed__menu">
   <a onclick="javascript:history.back(); return false;" href="#">
