@@ -65,6 +65,10 @@
   <script>
 	//alert("ID: <?php echo $post->ID;?>");
 </script>
+
+<?php 
+  get_template_part('template-parts/cookies', 'banner');
+?>
  
 <?php wp_footer(); ?>
 

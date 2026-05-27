@@ -1,0 +1,69 @@
+.cookies-banner {
+	position: fixed;
+	left: 16px;
+	bottom: 16px;
+	width: 100%;
+	max-width: 300px;
+	box-sizing: border-box;
+	padding: 16px;
+	border-radius: 10px;
+	background: #ffffff;
+	color: #222222;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+	border: 1px solid #e4e4e4;
+	z-index: 9999;
+	font-family: Arial, sans-serif;
+}
+
+.cookies-banner[hidden] {
+	display: none !important;
+}
+
+.cookies-banner h3 {
+	margin: 0 0 10px;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.cookies-banner p {
+	margin: 0 0 10px;
+	font-size: 14px;
+	line-height: 1.45;
+}
+
+.cookies-banner a {
+	color: #C4041C;
+}
+
+.cookies-banner a:hover,
+.cookies-banner a:focus {
+	color: #A00318;
+}
+
+.cookies-banner .accept-button {
+	display: inline-block;
+	width: 100%;
+	border: 0;
+	border-radius: 6px;
+	padding: 10px 12px;
+	font-size: 14px;
+	line-height: 1.2;
+	cursor: pointer;
+	background: #C4041C;
+	color: #ffffff;
+}
+
+.cookies-banner .accept-button:hover,
+.cookies-banner .accept-button:focus {
+	background: #A00318;
+}
+
+@media (max-width: 480px) {
+	.cookies-banner {
+		left: 10px;
+		right: 10px;
+		bottom: 10px;
+		max-width: none;
+		width: auto;
+	}
+}

@@ -202,6 +202,7 @@ function rubex_scripts()
 	wp_enqueue_script('main', get_template_directory_uri() . '/js/custom.js', array(), ALL_VERSION, true);
 
 	wp_enqueue_style('rubex_adv_style', get_template_directory_uri() . "/adv.css", array(), ALL_VERSION, 'all');
+	wp_enqueue_style('rubex_cookies_style', get_template_directory_uri() . "/cookies.css", array(), ALL_VERSION, 'all');
 
 	if (is_page(array(20700, 20734, 20749, 20715, 20736, 20738, 20744, 20746, 20748, 20742, 20722, 20740, 20717))) {
 		wp_enqueue_style('rubexprice-style', get_template_directory_uri() . "/css/rubex-price-style.css", array(), ALL_VERSION, 'all');
