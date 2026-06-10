@@ -4,6 +4,11 @@
 */
 get_header();
 ?>
+<?php
+if (function_exists('rubex_jsonld_render_key')) {
+	echo rubex_jsonld_render_key('requizites_page'); 
+}
+?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">

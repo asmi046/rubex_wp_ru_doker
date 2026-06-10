@@ -27,6 +27,19 @@
 	<?php wp_head(); ?>
 </head>
 
+<?php
+  if (function_exists('rubex_jsonld_render_organization')) {
+    echo rubex_jsonld_render_organization(); 
+  }
+
+  if (function_exists('rubex_jsonld_render_website')) {
+    echo rubex_jsonld_render_website(); 
+  }
+
+  if (function_exists('rubex_jsonld_render_breadcrumb')) {
+    echo rubex_jsonld_render_breadcrumb(); 
+  }
+?>
 
 
 <body <?php body_class(); ?>>

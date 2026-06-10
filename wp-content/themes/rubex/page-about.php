@@ -4,6 +4,12 @@
 * Template Name: О компании
 */
 get_header();?>
+
+<?php
+if (function_exists('rubex_jsonld_render_key')) {
+	echo rubex_jsonld_render_key('about_page'); 
+}
+?>
   <section class="header-bnr" style="background-image: url(<?php echo wp_get_attachment_image_src(carbon_get_the_post_meta('page_banner'), 'full')[0];?>)"></section>
   <div class="container">
     <?php
