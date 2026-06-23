@@ -4,7 +4,7 @@
 		Оставаясь на сайте, вы выражаете свое
 		<a href="/soglasie-na-obrabotku-personalnyh-dannyh" target="_blank" rel="noopener noreferrer">согласие</a>
 		на обработку персональных данных в соответствии c
-		<a href="/politika-konfidenczialnosti-i-obrabotki-personalnyh-dannyh" target="_blank" rel="noopener noreferrer">плитика конфиденциальности</a>
+		<a href="/politika-konfidenczialnosti-i-obrabotki-personalnyh-dannyh" target="_blank" rel="noopener noreferrer">политика конфиденциальности</a>
 	</p>
 	<p>
 		Подробнее о файлах
