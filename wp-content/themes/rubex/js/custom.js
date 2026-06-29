@@ -435,6 +435,7 @@ jQuery(document).ready(function ($) {
 			return;
 		}
 
+		$(this).prop('disabled', true);
 		var jqXHR = jQuery.post(
 			allAjax.ajaxurl,
 			{
@@ -453,12 +454,14 @@ jQuery(document).ready(function ($) {
 
 		jqXHR.done(function (responce) {
 			window.location.href = responce;
+			$(this).prop('disabled', false);
 		});
 
 		jqXHR.fail(function (responce) {
 			jQuery('#messgeModal #lineIcon').html('');
 			jQuery('#messgeModal #lineMsg').html("Произошла ошибка! Попробуйте позднее.");
 			jQuery('#messgeModal').arcticmodal();
+			$(this).prop('disabled', false);
 		});
 
 	});
@@ -531,6 +534,9 @@ jQuery(document).ready(function ($) {
 			return;
 		}
 
+		var $button = $(this);
+		console.log($button);
+		$button.prop('disabled', true);
 		var jqXHR = jQuery.post(
 			allAjax.ajaxurl,
 			{
@@ -551,12 +557,14 @@ jQuery(document).ready(function ($) {
 		jqXHR.done(function (responce) {
 			//console.log(responce);
 			window.location.href = responce;
+			$button.prop('disabled', false);
 		});
 
 		jqXHR.fail(function (responce) {
 			jQuery('#messgeModal #lineIcon').html('');
 			jQuery('#messgeModal #lineMsg').html("Произошла ошибка! Попробуйте позднее.");
 			jQuery('#messgeModal').arcticmodal();
+			$button.prop('disabled', false);
 		});
 
 	});

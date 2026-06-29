@@ -26,7 +26,7 @@
 		
 		<?php get_template_part('template-parts/callback-note');?>
         
-		<a href="#" class="trueButton uniSendBtn"><?_e("Отправить","rubex");?></a>
+		<button type="submit" class="trueButton uniSendBtn"><?_e("Отправить","rubex");?></button>
       </form>
     </div>
     

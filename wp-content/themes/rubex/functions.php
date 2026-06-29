@@ -180,7 +180,7 @@ add_action('widgets_init', 'rubex_widgets_init');
  * Enqueue scripts and styles.
  */
 
-define("ALL_VERSION", "1.0.33");
+define("ALL_VERSION", "1.0.35");
 
 function rubex_scripts()
 {

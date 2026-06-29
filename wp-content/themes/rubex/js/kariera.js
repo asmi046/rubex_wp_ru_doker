@@ -63,6 +63,8 @@ jQuery(document).ready(function ($) {
 	});
 
 	jQuery("#vac-modal .uniSendBtn").click(function (e) {
+		var $button = $(this);
+		console.log($button);
 		e.preventDefault();
 		var formEl = $(this).closest('form');
 		var vakansy = $(this).siblings('input[name=vakansy]').val();
@@ -93,6 +95,7 @@ jQuery(document).ready(function ($) {
 			return;
 		}
 
+		$button.prop('disabled', true);
 		var jqXHR = jQuery.post(
 			allAjax.ajaxurl,
 			{
@@ -112,6 +115,7 @@ jQuery(document).ready(function ($) {
 			jQuery('#messgeModal #lineMsg').html("Ваша заявка принята.");
 			$(".uniBigFormSendMail .formLoad").hide();
 			jQuery('#messgeModal').arcticmodal();
+			$button.prop('disabled', false);
 		});
 
 		jqXHR.fail(function (responce) {
@@ -119,6 +123,7 @@ jQuery(document).ready(function ($) {
 			jQuery('#messgeModal #lineMsg').html("Произошла ошибка, попробуйте позднее.");
 			$(".uniBigFormSendMail .formLoad").hide();
 			jQuery('#messgeModal').arcticmodal();
+			$button.prop('disabled', false);
 		});
 	});
 
@@ -341,6 +346,7 @@ jQuery(document).ready(function ($) {
 			language += ' Китайский ';
 		}
 
+		$(this).prop('disabled', true);
 		var jqXHR = jQuery.post(
 			allAjax.ajaxurl,
 			{
@@ -424,6 +430,7 @@ jQuery(document).ready(function ($) {
 					document.location.replace("https://rubexgroup.ru/kariera/vakansii");
 				}
 			});
+			$(this).prop('disabled', false);
 		});
 
 		// Обработка запроса с ошибкой
@@ -432,7 +439,7 @@ jQuery(document).ready(function ($) {
 			jQuery('#messgeModal #lineMsg').html("Произошла ошибка, попробуйте позднее.");
 			$(".uniBigFormSendMail .formLoad").hide();
 			jQuery('#messgeModal').arcticmodal();
-
+			$(this).prop('disabled', false);
 		});
 
 	});

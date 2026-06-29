@@ -521,7 +521,7 @@ get_header();
 				</div>
 				
 				<?php get_template_part('template-parts/callback-note');?>
-				<div class="trueButton osinContact" id="vacancySubmit">Отправить</div>
+				<button type="submit" class="trueButton osinContact" id="vacancySubmit">Отправить</button>
 				<br>
 				<br>
 				<!-- <p class="note-form">Нажимая на кнопку "Отправить", вы соглашаетесь с условиями <a class = "color-red" href="<?php echo get_permalink(19641);?>" target="_blank">обработки персональных данных</a>.</p> -->
