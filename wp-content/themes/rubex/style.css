@@ -889,6 +889,13 @@ textarea {
   width: 50%;
 }
 
+.RMerr {
+  display: block;
+  text-align: center;
+  color: red;
+  margin-bottom: 1.5em;
+}
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
