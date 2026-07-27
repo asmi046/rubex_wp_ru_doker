@@ -1229,12 +1229,22 @@ function setSelContragent($ctrg,$sendetMail){
 					$errors = true;
 					$checedFild = $checedFild."<span class = 'RMerr RMerrCenter2'>Поле e-mail обязательное для заполнения.</span>";		
 				}	
-				else
-				if (!filter_var(trim($_POST['RPemail']), FILTER_VALIDATE_EMAIL))
+			else
+			if (!filter_var(trim($_POST['RPemail']), FILTER_VALIDATE_EMAIL))
+			{
+				$errors = true;
+				$checedFild = $checedFild."<span class = 'RMerr RMerrCenter2'>Значение в поле e-mail не соответствует формату адреса электронной почты.</span>";	
+			}
+			else
+			{
+				$allowed_domains = array('yandex.ru', 'ya.ru', 'mail.ru', 'inbox.ru', 'bk.ru', 'list.ru', 'internet.ru', 'vk.com', 'xmail.ru', 'rambler.ru', 'lenta.ru', 'myrambler.ru', 'autorambler.ru', 'ro.ru', 'r0.ru');
+				$email_domain = strtolower(substr(strrchr(trim($_POST['RPemail']), "@"), 1));
+				if (!in_array($email_domain, $allowed_domains))
 				{
 					$errors = true;
-					$checedFild = $checedFild."<span class = 'RMerr RMerrCenter2'>Значение в поле e-mail не соответствует формату адреса электронной почты.</span>";	
+					$checedFild = $checedFild."<span class = 'RMerr RMerrCenter2'>Домен электронной почты не разрешен для регистрации. В соответствии с законодательством РФ.</span>";
 				}
+			}
 				
 				
 				// $captcha_instance = new ReallySimpleCaptcha();

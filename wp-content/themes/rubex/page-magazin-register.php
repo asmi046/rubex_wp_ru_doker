@@ -21,7 +21,7 @@ get_header();
 				RMerrs.innerHTML = ""
 
 				var url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party";
-				var token = "<?echo DADATA_TOKEN;?>";
+				var token = "<?php echo defined('DADATA_TOKEN') ? DADATA_TOKEN : ""; ?>";
 
 				var xhr = new XMLHttpRequest();
                 

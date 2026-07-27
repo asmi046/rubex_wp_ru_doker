@@ -111,7 +111,7 @@ get_header();
 							
 							<div class="formButtonLine">
 								<input type="submit" name="submit" id="submit" class="trueButton" value="Вход">
-								<a class="trueButton" href="<? echo get_the_permalink(20722); ?>" class="RMremPas">Регистрация</a>
+								<a class="trueButton" href="<? echo get_the_permalink(20722); ?>" class="RMremPas">Регистрация!</a>
 								<a class="trueButton grayButton" href="<? echo get_the_permalink(20715); ?>" class="RMremPas">Напомнить пароль</a>
 							</div>
 							
