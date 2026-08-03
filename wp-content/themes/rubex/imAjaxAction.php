@@ -897,6 +897,28 @@ function setSelContragent($ctrg,$sendetMail){
 		
 		if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
 			
+			// Защита от повторной отправки
+			$user_id = getSalerData("mail");
+			$idElem = $_REQUEST["idElem"];
+			$count = $_REQUEST["count"];
+			
+			// Проверяем, не был ли уже добавлен этот товар в корзину в последние 3 секунды
+			global $wpdb;
+			$recent_add = $wpdb->get_var($wpdb->prepare(
+				"SELECT id FROM wp_im_basket 
+				WHERE email = %s 
+				AND idElem = %s 
+				AND DATE_SUB(NOW(), INTERVAL 3 SECOND) < created_at
+				ORDER BY id DESC LIMIT 1",
+				$user_id, $idElem
+			));
+			
+			if ($recent_add && $wpdb->get_var($wpdb->prepare(
+				"SELECT count FROM wp_im_basket WHERE id = %d", $recent_add
+			)) == $count) {
+				wp_die(json_encode(array('status' => 'exists', 'message' => 'Товар уже добавлен в корзину')));
+			}
+			
 			//---------------------------------------------------------------------------------
 			$rezCookieBascet = $_COOKIE['imTovarBascet'];
 			$bascetData1 = array (
@@ -918,7 +940,6 @@ function setSelContragent($ctrg,$sendetMail){
 				"idElem" => $_REQUEST["idElem"]
 			); 
 			
-			global $wpdb;
 			$addRez = $wpdb->insert("wp_im_basket", $bascetData1, array("%s", "%s", "%s", "%s", "%s", "%s", "%d", "%s", "%s", "%f", "%f", "%d", "%f", "%f", "%f", "%s"));
 			
 			$rezCookieBascet.= $_REQUEST["idElem"]."|";

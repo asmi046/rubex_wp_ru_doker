@@ -41,7 +41,7 @@
     				<textarea name="cont_message" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
     				<!-- <div class="callback-note snoska"><?_e('Нажимая на кнопку "Отправить", вы соглашаетесь с',"rubex");?> <a class="tdu" href="<?php echo get_permalink(19641);?>"><?_e("условиями обработки персональных данных","rubex");?></a>.</div> -->
 					<?php get_template_part('template-parts/callback-note');?>
-					<a href="#" class="main-catalog__photo-link callback-btn"><?_e("Отправить","rubex");?></a>
+					<a href="#" class="main-catalog__photo-link callback-btn protected-button"><?_e("Отправить","rubex");?></a>
     				
     			</div>
     		</form>

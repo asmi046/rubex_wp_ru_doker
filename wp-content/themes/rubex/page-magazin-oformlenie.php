@@ -26,6 +26,11 @@
 			
 			$(".podtverditZak").click(function(){ 
 				
+				// Используем универсальный модуль защиты
+				if (typeof window.formProtection !== 'undefined' && window.formProtection.isProtected(jQuery(this))) {
+					return false;
+				}
+				
 				$(".RMerrs").html("");
 				if (($("#innClient").val().length < 8)||($("#innClient").val() == "0")||(!isNumber($("#innClient").val())))
 				{
@@ -74,10 +79,17 @@
 				// Обработка запроса с ошибкой
 				jqXHR.fail(function (responce) {
 					console.log(responce);
+					$(".RMerrs").html("<span class='RMerr RMerrCenter2'>Произошла ошибка при оформлении заказа. Попробуйте позднее.</span>");
 				});
 			});
 			
 			$(".otmenitZak").click(function(){ 
+				
+				// Используем универсальный модуль защиты
+				if (typeof window.formProtection !== 'undefined' && window.formProtection.isProtected(jQuery(this))) {
+					return false;
+				}
+				
 				$(".imTovarTables").css("display","none");
 
 				$(".imRezMessages").html("<span class = 'zakNo'>Ваш заказ был удален.</span>"+
@@ -287,8 +299,8 @@
 										</div>
 										
 										<div class = 'imItogoBtn'>
-											<div class = "podtverditZak trueButton">Подтвердить заказ</div>
-											<div class = "otmenitZak trueButton grayButton">Отменить заказ</div>
+											<div class = "podtverditZak trueButton protected-button">Подтвердить заказ</div>
+											<div class = "otmenitZak trueButton protected-button grayButton">Отменить заказ</div>
 										</div>
 										
 									</div>

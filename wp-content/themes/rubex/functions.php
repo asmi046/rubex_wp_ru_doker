@@ -192,9 +192,12 @@ function rubex_scripts()
 	wp_enqueue_style("style-modal", get_template_directory_uri() . "/css/jquery.arcticmodal-0.3.css");
 	wp_enqueue_style('rubex-style', get_stylesheet_uri(), array(), ALL_VERSION, 'all');
 	wp_enqueue_style('rubex-light', get_template_directory_uri() . '/css/lightbox.min.css', array(), ALL_VERSION, 'all');
+	wp_enqueue_style('form-protection', get_template_directory_uri() . '/css/form-protection.css', array(), ALL_VERSION, 'all');
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('libs', get_template_directory_uri() . '/js/scripts.min.js', array(), ALL_VERSION, true);
 	wp_enqueue_script('light', get_template_directory_uri() . '/js/lightbox.min.js', array(), ALL_VERSION, true);
+	wp_enqueue_script('form-protection', get_template_directory_uri() . '/js/form-protection.js', array('jquery'), ALL_VERSION, true);
+	wp_enqueue_script('protected-buttons-init', get_template_directory_uri() . '/js/protected-buttons-init.js', array('jquery', 'form-protection'), ALL_VERSION, true);
 
 	wp_enqueue_script('career', get_template_directory_uri() . '/js/kariera.js', array(), ALL_VERSION, true);
 	wp_enqueue_script('amodal', get_template_directory_uri() . '/js/jquery.arcticmodal-0.3.min.js', array(), ALL_VERSION, true);

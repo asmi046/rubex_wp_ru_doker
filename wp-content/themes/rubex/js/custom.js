@@ -379,6 +379,11 @@ jQuery(document).ready(function ($) {
 	//------------ Отправка звонка
 	jQuery("#zvonokSubmit").click(function (e) {
 		e.preventDefault();
+		
+		// Используем универсальный модуль защиты
+		if (typeof window.formProtection !== 'undefined' && window.formProtection.isProtected(jQuery(this))) {
+			return false;
+		}
 
 		var name = $(this).parent().parent().find('input[name=zvonok_name]').val();
 		var phone = $(this).parent().parent().find('input[name=zvonok_phone]').val();
@@ -435,7 +440,12 @@ jQuery(document).ready(function ($) {
 			return;
 		}
 
-		$(this).prop('disabled', true);
+		var $button = $(this);
+		
+		if (typeof window.formProtection !== 'undefined') {
+			window.formProtection.protectButton($button);
+		}
+
 		var jqXHR = jQuery.post(
 			allAjax.ajaxurl,
 			{
@@ -453,15 +463,19 @@ jQuery(document).ready(function ($) {
 
 
 		jqXHR.done(function (responce) {
+			if (typeof window.formProtection !== 'undefined') {
+				window.formProtection.markSuccess($button);
+			}
 			window.location.href = responce;
-			$(this).prop('disabled', false);
 		});
 
 		jqXHR.fail(function (responce) {
+			if (typeof window.formProtection !== 'undefined') {
+				window.formProtection.markError($button);
+			}
 			jQuery('#messgeModal #lineIcon').html('');
 			jQuery('#messgeModal #lineMsg').html("Произошла ошибка! Попробуйте позднее.");
 			jQuery('#messgeModal').arcticmodal();
-			$(this).prop('disabled', false);
 		});
 
 	});
@@ -469,6 +483,11 @@ jQuery(document).ready(function ($) {
 	//------------ Отправка прямого образения
 	jQuery("#obrashenieSubmit").click(function (e) {
 		e.preventDefault();
+		
+		// Используем универсальный модуль защиты
+		if (typeof window.formProtection !== 'undefined' && window.formProtection.isProtected(jQuery(this))) {
+			return false;
+		}
 
 		var name = $(this).parent().parent().find('input[name=obr_name]').val();
 		var phone = $(this).parent().parent().find('input[name=obr_phone]').val();
@@ -535,8 +554,11 @@ jQuery(document).ready(function ($) {
 		}
 
 		var $button = $(this);
-		console.log($button);
-		$button.prop('disabled', true);
+		
+		if (typeof window.formProtection !== 'undefined') {
+			window.formProtection.protectButton($button);
+		}
+
 		var jqXHR = jQuery.post(
 			allAjax.ajaxurl,
 			{
@@ -556,15 +578,19 @@ jQuery(document).ready(function ($) {
 
 		jqXHR.done(function (responce) {
 			//console.log(responce);
+			if (typeof window.formProtection !== 'undefined') {
+				window.formProtection.markSuccess($button);
+			}
 			window.location.href = responce;
-			$button.prop('disabled', false);
 		});
 
 		jqXHR.fail(function (responce) {
+			if (typeof window.formProtection !== 'undefined') {
+				window.formProtection.markError($button);
+			}
 			jQuery('#messgeModal #lineIcon').html('');
 			jQuery('#messgeModal #lineMsg').html("Произошла ошибка! Попробуйте позднее.");
 			jQuery('#messgeModal').arcticmodal();
-			$button.prop('disabled', false);
 		});
 
 	});
@@ -615,6 +641,12 @@ jQuery(document).ready(function ($) {
 
 	jQuery(".callback-btn").click(function (e) {
 		e.preventDefault();
+		
+		// Используем универсальный модуль защиты
+		if (typeof window.formProtection !== 'undefined' && window.formProtection.isProtected(jQuery(this))) {
+			return false;
+		}
+		
 		var name = $(this).parent().parent().find('input[name=cont_name]').val();
 		var phone = $(this).parent().parent().find('input[name=cont_tel]').val();
 		var mail = $(this).parent().parent().find('input[name=cont_email]').val();
@@ -662,6 +694,12 @@ jQuery(document).ready(function ($) {
 			return;
 		}
 
+		var $button = $(this);
+		
+		if (typeof window.formProtection !== 'undefined') {
+			window.formProtection.protectButton($button);
+		}
+
 		var jqXHR = jQuery.post(
 			allAjax.ajaxurl,
 			{
@@ -680,11 +718,16 @@ jQuery(document).ready(function ($) {
 
 
 		jqXHR.done(function (responce) {
-
+			if (typeof window.formProtection !== 'undefined') {
+				window.formProtection.markSuccess($button);
+			}
 			window.location.href = responce;
 		});
 
 		jqXHR.fail(function (responce) {
+			if (typeof window.formProtection !== 'undefined') {
+				window.formProtection.markError($button);
+			}
 			jQuery('#messgeModal #lineIcon').html('');
 			jQuery('#messgeModal #lineMsg').html("Произошла ошибка! Попробуйте позднее.");
 			jQuery('#messgeModal').arcticmodal();

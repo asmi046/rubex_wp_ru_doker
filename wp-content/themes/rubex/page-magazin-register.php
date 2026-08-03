@@ -71,67 +71,72 @@ get_header();
 	})
 		
 		jQuery(document).ready(function($){
-	   
+		   
 		   $("#imRegistrButton").click(function() { 
-				$("#RMerrs").html("");
-				$(".fa-spinner-reg").css("display","inline-block");
-				
-				var  jqXHR = jQuery.post(
-					allAjax.ajaxurl,
-					{
-						action: 'add_im_user',
-						nonce: allAjax.nonce,
-						RPemail: $("#RPemail").val(),
-						RPsname: $("#RPsname").val(),
-						RPname: $("#RPname").val(),
-						RPfname: $("#RPfname").val(),
-						RPdolg: $("#RPdolg").val(),
-						RPPasword: $("#RPPasword").val(),
-						RPPasword2: $("#RPPasword2").val(),
-						RPinn: $("#RPinn").val(),
-						RPkpp: $("#RPkpp").val(),
-						RPorg: $("#RPorg").val(),
-						RPotr: $("#RPotr").val(),
-						RPstrana: $("#RPstrana").val(),
-						RPregion: $("#RPregion").val(),
-						RPphone: $("#RPphone").val(),
-						RPtypeul: $("#RPtypeul").val(),
-						RPrezident: $("#RPrezident").val(),
-						
-						RPcapsha: $("#RPcapsha").val(),
-						CHPrefix: $("#CHPrefix").val()
-					}
-				);
-				
-						
-				jqXHR.done(function (responce) {
-					$("#RMerrs").html("<h2>"+responce+"</h2> ");
-					$(".imRegForm").hide();
-					$(".fa-spinner-reg").hide();
-					$(".rezidentForm").hide();
-					$(".serchFoINN").hide();
-					$("#imReturnBtn").show();
-				});
+		   		// Используем универсальный модуль защиты
+		   		if (typeof window.formProtection !== 'undefined' && window.formProtection.isProtected(jQuery(this))) {
+		   			return false;
+		   		}
+		   		
+		   		$("#RMerrs").html("");
+		   		$(".fa-spinner-reg").css("display","inline-block");
+		   		
+		   		var  jqXHR = jQuery.post(
+		   			allAjax.ajaxurl,
+		   			{
+		   				action: 'add_im_user',
+		   				nonce: allAjax.nonce,
+		   				RPemail: $("#RPemail").val(),
+		   				RPsname: $("#RPsname").val(),
+		   				RPname: $("#RPname").val(),
+		   				RPfname: $("#RPfname").val(),
+		   				RPdolg: $("#RPdolg").val(),
+		   				RPPasword: $("#RPPasword").val(),
+		   				RPPasword2: $("#RPPasword2").val(),
+		   				RPinn: $("#RPinn").val(),
+		   				RPkpp: $("#RPkpp").val(),
+		   				RPorg: $("#RPorg").val(),
+		   				RPotr: $("#RPotr").val(),
+		   				RPstrana: $("#RPstrana").val(),
+		   				RPregion: $("#RPregion").val(),
+		   				RPphone: $("#RPphone").val(),
+		   				RPtypeul: $("#RPtypeul").val(),
+		   				RPrezident: $("#RPrezident").val(),
+		   				
+		   				RPcapsha: $("#RPcapsha").val(),
+		   				CHPrefix: $("#CHPrefix").val()
+		   			}
+		   		);
+		   		
+		   				
+		   		jqXHR.done(function (responce) {
+		   			$("#RMerrs").html("<h2>"+responce+"</h2> ");
+		   			$(".imRegForm").hide();
+		   			$(".fa-spinner-reg").hide();
+		   			$(".rezidentForm").hide();
+		   			$(".serchFoINN").hide();
+		   			$("#imReturnBtn").show();
+		   		});
 
-				
-				jqXHR.fail(function (responce) {
-					console.log(responce);
-					$("#RMerrs").html("<span class = 'RMerr RMerrCenter2'>"+responce.responseText+"</span>");
-					$(".fa-spinner-reg").hide();
-					$("#RPcapsha").val("");
-					var  jqXHR = jQuery.post(
-					allAjax.ajaxurl,
-						{
-							action: 'new_capcha',
-							nonce: allAjax.nonce
-						}
-					).done(function(responce) {
-						rez = responce.split("|");
-						$("#CHPrefix").val(rez[1]);
-						$("#RMchImg").attr('src', rez[0]);
-					}) ;
-				});
-				
+		   		
+		   		jqXHR.fail(function (responce) {
+		   			console.log(responce);
+		   			$("#RMerrs").html("<span class = 'RMerr RMerrCenter2'>"+responce.responseText+"</span>");
+		   			$(".fa-spinner-reg").hide();
+		   			$("#RPcapsha").val("");
+		   			var  jqXHR = jQuery.post(
+		   			allAjax.ajaxurl,
+		   				{
+		   					action: 'new_capcha',
+		   					nonce: allAjax.nonce
+		   				}
+		   			).done(function(responce) {
+		   				rez = responce.split("|");
+		   				$("#CHPrefix").val(rez[1]);
+		   				$("#RMchImg").attr('src', rez[0]);
+		   			}) ;
+		   		});
+		   		
 		   });
 		   
 		   
@@ -377,7 +382,7 @@ get_header();
 						
 						<span class="RMrtext note">*Поля обязательные для заполнения</span><br>
 
-						<input class="trueButton" type="button" name="imRegistrButton" id="imRegistrButton" value="Регистрация"> <i class="fa-spinner-reg fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+						<input class="trueButton protected-button" type="button" name="imRegistrButton" id="imRegistrButton" value="Регистрация"> <i class="fa-spinner-reg fa fa-spinner fa-pulse fa-3x fa-fw"></i>
 					</div>
 					<p class="note-form">Нажимая на кнопку "Регистрация", вы соглашаетесь с условиями <a href="https://rubexgroup.ru/policy/" target="_blank">обработки персональных данных</a>.</p>
 										
