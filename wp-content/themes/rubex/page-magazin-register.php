@@ -382,7 +382,7 @@ get_header();
 						
 						<span class="RMrtext note">*Поля обязательные для заполнения</span><br>
 
-						<input class="trueButton protected-button" type="button" name="imRegistrButton" id="imRegistrButton" value="Регистрация"> <i class="fa-spinner-reg fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+						<input class="trueButton" type="button" name="imRegistrButton" id="imRegistrButton" value="Регистрация"> <i class="fa-spinner-reg fa fa-spinner fa-pulse fa-3x fa-fw"></i>
 					</div>
 					<p class="note-form">Нажимая на кнопку "Регистрация", вы соглашаетесь с условиями <a href="https://rubexgroup.ru/policy/" target="_blank">обработки персональных данных</a>.</p>
 										

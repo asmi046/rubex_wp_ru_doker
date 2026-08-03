@@ -102,7 +102,7 @@
 				<?php get_template_part('template-parts/callback-note');?>
 				
 				<div class="form-block">
-					<button class="trueButton protected-button" id="obrashenieSubmit"><?_e("Отправить","rubex");?></button>
+					<button class="trueButton" id="obrashenieSubmit"><?_e("Отправить","rubex");?></button>
 				</div>
 			</form>
 		</div>
@@ -166,7 +166,7 @@
     				<!-- <div class="callback-note snoska"><?_e('Нажимая на кнопку "Отправить", вы соглашаетесь с',"rubex");?> <a class="tdu" href="<?php echo get_permalink(19641);?>"><?_e("условиями обработки персональных данных","rubex");?></a>.</div> -->
 					<?php get_template_part('template-parts/callback-note');?>
 					<div class="form-block">
-						<button class="trueButton protected-button" id="zvonokSubmit"><?_e("Отправить","rubex");?></button>
+						<button class="trueButton" id="zvonokSubmit"><?_e("Отправить","rubex");?></button>
 					</div>
 				</form>
 			</div>

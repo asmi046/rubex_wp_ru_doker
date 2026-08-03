@@ -299,8 +299,8 @@
 										</div>
 										
 										<div class = 'imItogoBtn'>
-											<div class = "podtverditZak trueButton protected-button">Подтвердить заказ</div>
-											<div class = "otmenitZak trueButton protected-button grayButton">Отменить заказ</div>
+											<div class = "podtverditZak trueButton">Подтвердить заказ</div>
+											<div class = "otmenitZak trueButton grayButton">Отменить заказ</div>
 										</div>
 										
 									</div>
