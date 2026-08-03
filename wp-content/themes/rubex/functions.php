@@ -301,25 +301,25 @@ function sen_recall()
 
 
 
-		$sendAdr = "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com";
+		$sendAdr = "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru";
 		$managername = "Не указан";
 
 		$region = $_REQUEST["region"];
 
 		if ($_REQUEST["napravl"] == "Приобретение продукции Rubex") {
-			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com,contact@rubexgroup.ru,silin@rubexgroup.ru";
+			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru,contact@rubexgroup.ru,silin@rubexgroup.ru";
 		}
 
 		if ($_REQUEST["napravl"] == "Предложение сырья и материалов") {
-			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com,mazurinayum@rubexgroup.ru";
+			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru,mazurinayum@rubexgroup.ru";
 		}
 
 		if ($_REQUEST["napravl"] == "Карьера") {
-			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com,pogozihvv@rubexgroup.ru";
+			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru,pogozihvv@rubexgroup.ru";
 		}
 
 		if ($_REQUEST["napravl"] == "Другие вопросы") {
-			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com,contact@rubexgroup.ru,contact@rubexgroup.ru";
+			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru,contact@rubexgroup.ru,contact@rubexgroup.ru";
 		}
 
 		// add_filter('wp_mail_content_type', create_function('', 'return "text/html";'));
@@ -361,13 +361,13 @@ function send_obrashenie()
 			'content-type: text/html',
 		);
 
-		$sendAdr = "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com";
+		$sendAdr = "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru";
 		$managername = "Не указан";
 
 		$region = $_REQUEST["region"];
 
 		if ($_REQUEST["napravl"] == "Приобретение продукции Rubex") {
-			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com,contact@rubexgroup.ru,silin@rubexgroup.ru,silin@rubexgroup.ru";
+			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru,contact@rubexgroup.ru,silin@rubexgroup.ru,silin@rubexgroup.ru";
 
 			global $wpdb;
 
@@ -383,15 +383,15 @@ function send_obrashenie()
 		}
 
 		if ($_REQUEST["napravl"] == "Предложение сырья и материалов") {
-			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com,mazurinayum@rubexgroup.ru,mazurinayum@rubexgroup.ru";
+			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru,mazurinayum@rubexgroup.ru,mazurinayum@rubexgroup.ru";
 		}
 
 		if ($_REQUEST["napravl"] == "Карьера") {
-			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com,pogozihvv@rubexgroup.ru";
+			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru,pogozihvv@rubexgroup.ru";
 		}
 
 		if ($_REQUEST["napravl"] == "Другие вопросы") {
-			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi046@gmail.com,contact@rubexgroup.ru,contact@rubexgroup.ru";
+			$sendAdr .= "vorobevaov@rubexgroup.ru,V.Garbuzov@rubexgroup.ru,asmi-work046@yandex.ru,contact@rubexgroup.ru,contact@rubexgroup.ru";
 		}
 
 
@@ -520,7 +520,7 @@ function send_form_vacancy()
 		message_to_telegram($text_to_send);
 
 		add_filter('wp_mail_content_type', 'set_html_content_type');
-		if (wp_mail('asmi046@gmail.com, vorobevaov@rubexgroup.ru,pogozihvv@rubexgroup.ru,Silin@rubexgroup.ru,asmi046@gmail.com,contact@rubexgroup.ru', 'Вакансия', $text_to_send, $headers))
+		if (wp_mail('asmi-work046@yandex.ru, vorobevaov@rubexgroup.ru,pogozihvv@rubexgroup.ru,Silin@rubexgroup.ru,asmi-work046@yandex.ru,contact@rubexgroup.ru', 'Вакансия', $text_to_send, $headers))
 			wp_die("<span style = 'color:green;'>Мы свяжемся с Вами в ближайшее время.</span>");
 		else wp_die("<span style = 'color:red;'>Сервис недоступен попробуйте позднее.</span>");
 	} else {
@@ -553,7 +553,7 @@ function resume_send()
 		message_to_telegram($text_to_send);
 
 		add_filter('wp_mail_content_type', 'set_html_content_type');
-		if (wp_mail('asmi046@gmail.com, vorobevaov@rubexgroup.ru,pogozihvv@rubexgroup.ru,Silin@rubexgroup.ru,asmi046@gmail.com,contact@rubexgroup.ru', 'Резюме', $text_to_send, $headers, $photo))
+		if (wp_mail('asmi-work046@yandex.ru, vorobevaov@rubexgroup.ru,pogozihvv@rubexgroup.ru,Silin@rubexgroup.ru,asmi-work046@yandex.ru,contact@rubexgroup.ru', 'Резюме', $text_to_send, $headers, $photo))
 			wp_die("<span style = 'color:green;'>Мы свяжемся с Вами в ближайшее время.</span><pre>" . $_FILES['photo'] . '</pre>');
 		else wp_die("<span style = 'color:red;'>Сервис недоступен попробуйте позднее.</span>");
 	} else {
@@ -1316,7 +1316,7 @@ function get_biautorise(WP_REST_Request $request)
 }
 
 //http://rubexgroup.ru/wp-json/bi/v2/userautorization?autinfo=null
-//https://rubexgroup.ru/wp-json/bi/v2/userautorization?autinfo[mail]=asmi046@gmail.com&autinfo[pass]=1111
+//https://rubexgroup.ru/wp-json/bi/v2/userautorization?autinfo[mail]=asmi-work046@yandex.ru&autinfo[pass]=1111
 function user_autorization(WP_REST_Request $request)
 {
 
@@ -1365,7 +1365,7 @@ function user_autorization(WP_REST_Request $request)
 	}
 }
 
-//http://rubexgroup.ru/wp-json/bi/v2/relogin?mail=asmi046@gmail.com
+//http://rubexgroup.ru/wp-json/bi/v2/relogin?mail=asmi-work046@yandex.ru
 function relogin(WP_REST_Request $request)
 {
 	$serviceBase = new wpdb(BI_SERVICE_USER_NAME, BI_SERVICE_USER_PASS, BI_SERVICE_DB_NAME, BI_SERVICE_DB_HOST);
@@ -1385,7 +1385,7 @@ function relogin(WP_REST_Request $request)
 		return new WP_Error('no_token', 'Токен не найден или пользователь уже разлогинен.', ['status' => 403]);
 }
 
-//http://rubexgroup.ru/wp-json/bi/v2/passrec?mail=asmi046@gmail.com
+//http://rubexgroup.ru/wp-json/bi/v2/passrec?mail=asmi-work046@yandex.ru
 function pass_rec(WP_REST_Request $request)
 {
 	$serviceBase = new wpdb(BI_SERVICE_USER_NAME, BI_SERVICE_USER_PASS, BI_SERVICE_DB_NAME, BI_SERVICE_DB_HOST);
@@ -1592,7 +1592,7 @@ function my_project_updated_send_email($post_id)
 
 	$message = $tg_text;
 	$message .= $post_title . ": " . $post_url;
-	$sendAdr = "vorobevaov@rubexgroup.ru,vorobevav@rubexgroup.ru,asmi046@gmail.com,petkovaiv@rubexgroup.ru";
+	$sendAdr = "vorobevaov@rubexgroup.ru,vorobevav@rubexgroup.ru,asmi-work046@yandex.ru,petkovaiv@rubexgroup.ru";
 	wp_mail($sendAdr, $subject, $message, $headers);
 }
 
