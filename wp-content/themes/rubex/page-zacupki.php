@@ -69,10 +69,10 @@ get_header();
 							<div class="data-item__text"><?php echo carbon_get_the_post_meta('zac_title_1'); ?></div>
 							<a href="<?php echo carbon_get_the_post_meta('zac_file_1'); ?>" target="_blank" class="data-item__link"><? _e("Скачать", "rubex"); ?></a>
 						</div>
-						<!-- <div class="data-item">
+						<div class="data-item">
 							<div class="data-item__text"><?php echo carbon_get_the_post_meta('zac_title_2'); ?></div>
 							<a href="<?php echo carbon_get_the_post_meta('zac_file_2'); ?>" class="data-item__link"><? _e("Скачать", "rubex"); ?></a>
-						</div> -->
+						</div>
 						<div class="data-item">
 							<div class="data-item__text"><?php echo carbon_get_the_post_meta('zac_title_3'); ?></div>
 							<a href="<?php echo carbon_get_the_post_meta('zac_file_3'); ?>" class="data-item__link" target="_blank"><? _e("Скачать", "rubex"); ?></a>
@@ -84,7 +84,7 @@ get_header();
 							<!-- <div class="data-item">
 								<div class="data-item__text"><?php echo carbon_get_the_post_meta('zac_title_4'); ?></div>
 								<a href="<?php echo carbon_get_the_post_meta('zac_file_4'); ?>" class="data-item__link" target="_blank"><? _e("Скачать", "rubex"); ?></a>
-							</div>-->
+							</div> -->
 							<div class="data-item">
 								<div class="data-item__text"><?php echo carbon_get_the_post_meta('zac_title_5'); ?></div>
 								<a href="<?php echo carbon_get_the_post_meta('zac_file_5'); ?>" class="data-item__link" target="_blank"><? _e("Скачать", "rubex"); ?></a>
